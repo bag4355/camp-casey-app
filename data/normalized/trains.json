@@ -1,0 +1,2878 @@
+{
+  "providers": [
+    {
+      "provider_id": "bosan",
+      "station_name": "Bosan Station / 보산역",
+      "aliases": [
+        "bosan",
+        "보산",
+        "보산역",
+        "bosan station",
+        "line 1",
+        "1호선",
+        "incheon",
+        "gwangwoondae"
+      ],
+      "available": true,
+      "not_available_reason": null,
+      "notes": [
+        "Only the Bosan timetable file is connected in this version.",
+        "Sheet selection is calendar weekday / Saturday / Sunday. No separate public-holiday sheet was provided."
+      ],
+      "sheets": [
+        {
+          "provider_id": "bosan",
+          "service_key": "weekday",
+          "service_label": "Weekday",
+          "direction_label": "동두천중앙 방향",
+          "departures": [
+            {
+              "departure_time": "05:21",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 3",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 3,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "05:21 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "05:53",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 4",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 4,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "05:53 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:12",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 5",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 5,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:12 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:33",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 6",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 6,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:33 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 7",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 7,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:53",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 8",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 8,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:53 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:14",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 9",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 9,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:14 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:23",
+              "destination": "부평",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 10",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 10,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:23 부평"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:30",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 11",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 11,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:30 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:42",
+              "destination": "부평",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 12",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 12,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:42 부평"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:49",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 13",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 13,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:49 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:58",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 14",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 14,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:58 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:11",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 15",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 15,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:11 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:19",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 16",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 16,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:19 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:31",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 17",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 17,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:31 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:38",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 18",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 18,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:38 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:46",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 19",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 19,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:46 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:01",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 20",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 20,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:01 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:14",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 21",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 21,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:14 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:23",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 22",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 22,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:23 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:41",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 23",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 23,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:41 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:00",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 24",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 24,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:00 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:10",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 25",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 25,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:10 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 26",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 26,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:55",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 27",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 27,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:55 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "11:45",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 28",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 28,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "11:45 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:01",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 29",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 29,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:01 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:39",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 30",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 30,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:39 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "13:01",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 31",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 31,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "13:01 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "13:43",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 32",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 32,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "13:43 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:08",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 33",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 33,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:08 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:48",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 34",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 34,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:48 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:09",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 35",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 35,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:09 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 36",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 36,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:06",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 37",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 37,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:06 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:36",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 38",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 38,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:36 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:45",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 39",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 39,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:45 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "17:01",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 40",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 40,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "17:01 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "17:11",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 41",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 41,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "17:11 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "17:38",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 42",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 42,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "17:38 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "17:56",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 43",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 43,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "17:56 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:11",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 44",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 44,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:11 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:41",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 45",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 45,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:41 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:59",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 46",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 46,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:59 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:16",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 47",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 47,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:16 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 48",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 48,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:55",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 49",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 49,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:55 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:04",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 50",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 50,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:04 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:23",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 51",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 51,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:23 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:36",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 52",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 52,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:36 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:56",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 53",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 53,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:56 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:06",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 54",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 54,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:06 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:19",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 55",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 55,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:19 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:54",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 56",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 56,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:54 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "22:06",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 57",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 57,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "22:06 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "22:31",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 58",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 58,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "22:31 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "22:46",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 59",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 59,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "22:46 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:02",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 60",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 60,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:02 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:36",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 61",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 61,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:36 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:54",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향) • row 62",
+                  "sheet_name": "보산역(평일,동두천중앙 방향)",
+                  "row": 62,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:54 광운대"
+                }
+              ]
+            }
+          ],
+          "source_refs": [
+            {
+              "source_type": "xlsx",
+              "file_name": "Bosan-Train-TimeTable.xlsx",
+              "label": "Bosan-Train-TimeTable.xlsx • 보산역(평일,동두천중앙 방향)",
+              "sheet_name": "보산역(평일,동두천중앙 방향)",
+              "row": 2,
+              "column": 2,
+              "json_pointer": null,
+              "excerpt": "동두천중앙 방향"
+            }
+          ]
+        },
+        {
+          "provider_id": "bosan",
+          "service_key": "saturday",
+          "service_label": "Saturday",
+          "direction_label": "동두천중앙 방향",
+          "departures": [
+            {
+              "departure_time": "05:21",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 3",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 3,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "05:21 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "05:52",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 4",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 4,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "05:52 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:17",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 5",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 5,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:17 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:35",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 6",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 6,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:35 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:47",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 7",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 7,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:47 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:53",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 8",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 8,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:53 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:06",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 9",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 9,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:06 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:24",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 10",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 10,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:24 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:48",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 11",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 11,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:48 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:57",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 12",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 12,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:57 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:15",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 13",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 13,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:15 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:39",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 14",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 14,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:39 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:00",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 15",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 15,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:00 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:25",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 16",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 16,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:25 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:47",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 17",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 17,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:47 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:05",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 18",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 18,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:05 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:16",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 19",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 19,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:16 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 20",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 20,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:58",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 21",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 21,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:58 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "11:15",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 22",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 22,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "11:15 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "11:45",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 23",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 23,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "11:45 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "11:55",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 24",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 24,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "11:55 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:16",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 25",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 25,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:16 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:40",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 26",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 26,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:40 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:59",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 27",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 27,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:59 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "13:21",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 28",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 28,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "13:21 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "13:41",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 29",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 29,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "13:41 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:05",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 30",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 30,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:05 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:25",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 31",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 31,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:25 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:38",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 32",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 32,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:38 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:01",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 33",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 33,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:01 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:16",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 34",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 34,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:16 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 35",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 35,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:54",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 36",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 36,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:54 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:03",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 37",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 37,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:03 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:41",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 38",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 38,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:41 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:58",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 39",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 39,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:58 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "17:39",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 40",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 40,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "17:39 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:00",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 41",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 41,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:00 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:13",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 42",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 42,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:13 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:44",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 43",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 43,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:44 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:01",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 44",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 44,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:01 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:06",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 45",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 45,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:06 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:40",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 46",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 46,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:40 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:55",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 47",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 47,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:55 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:14",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 48",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 48,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:14 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:43",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 49",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 49,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:43 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:57",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 50",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 50,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:57 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:27",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 51",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 51,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:27 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:45",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 52",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 52,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:45 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:55",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 53",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 53,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:55 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "22:36",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 54",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 54,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "22:36 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "22:50",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 55",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 55,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "22:50 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:02",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 56",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 56,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:02 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:33",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 57",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 57,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:33 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:55",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향) • row 58",
+                  "sheet_name": "보산역(토요일,동두천중앙 방향)",
+                  "row": 58,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:55 광운대"
+                }
+              ]
+            }
+          ],
+          "source_refs": [
+            {
+              "source_type": "xlsx",
+              "file_name": "Bosan-Train-TimeTable.xlsx",
+              "label": "Bosan-Train-TimeTable.xlsx • 보산역(토요일,동두천중앙 방향)",
+              "sheet_name": "보산역(토요일,동두천중앙 방향)",
+              "row": 2,
+              "column": 2,
+              "json_pointer": null,
+              "excerpt": "동두천중앙 방향"
+            }
+          ]
+        },
+        {
+          "provider_id": "bosan",
+          "service_key": "sunday",
+          "service_label": "Sunday",
+          "direction_label": "동두천중앙 방향",
+          "departures": [
+            {
+              "departure_time": "05:21",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 3",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 3,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "05:21 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "05:52",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 4",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 4,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "05:52 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:17",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 5",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 5,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:17 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:35",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 6",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 6,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:35 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:47",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 7",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 7,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:47 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "06:53",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 8",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 8,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "06:53 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:06",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 9",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 9,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:06 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:24",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 10",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 10,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:24 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:48",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 11",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 11,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:48 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "07:57",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 12",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 12,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "07:57 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:15",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 13",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 13,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:15 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "08:39",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 14",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 14,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "08:39 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:00",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 15",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 15,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:00 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:25",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 16",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 16,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:25 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "09:47",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 17",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 17,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "09:47 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:05",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 18",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 18,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:05 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:16",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 19",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 19,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:16 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 20",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 20,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "10:58",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 21",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 21,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "10:58 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "11:15",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 22",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 22,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "11:15 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "11:45",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 23",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 23,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "11:45 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "11:55",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 24",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 24,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "11:55 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:16",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 25",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 25,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:16 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:40",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 26",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 26,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:40 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "12:59",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 27",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 27,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "12:59 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "13:21",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 28",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 28,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "13:21 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "13:41",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 29",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 29,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "13:41 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:05",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 30",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 30,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:05 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:25",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 31",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 31,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:25 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "14:38",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 32",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 32,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "14:38 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:01",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 33",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 33,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:01 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:16",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 34",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 34,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:16 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:46",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 35",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 35,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:46 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "15:54",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 36",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 36,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "15:54 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:03",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 37",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 37,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:03 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:41",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 38",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 38,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:41 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "16:58",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 39",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 39,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "16:58 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "17:39",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 40",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 40,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "17:39 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:00",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 41",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 41,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:00 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:13",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 42",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 42,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:13 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "18:44",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 43",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 43,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "18:44 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:01",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 44",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 44,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:01 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:06",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 45",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 45,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:06 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:40",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 46",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 46,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:40 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "19:55",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 47",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 47,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "19:55 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:14",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 48",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 48,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:14 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:43",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 49",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 49,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:43 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "20:57",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 50",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 50,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "20:57 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:27",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 51",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 51,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:27 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:45",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 52",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 52,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:45 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "21:55",
+              "destination": "인천",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 53",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 53,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "21:55 인천"
+                }
+              ]
+            },
+            {
+              "departure_time": "22:36",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 54",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 54,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "22:36 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "22:50",
+              "destination": "구로",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 55",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 55,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "22:50 구로"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:02",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 56",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 56,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:02 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:33",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 57",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 57,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:33 광운대"
+                }
+              ]
+            },
+            {
+              "departure_time": "23:55",
+              "destination": "광운대",
+              "source_refs": [
+                {
+                  "source_type": "xlsx",
+                  "file_name": "Bosan-Train-TimeTable.xlsx",
+                  "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향) • row 58",
+                  "sheet_name": "보산역(일요일,동두천중앙 방향)",
+                  "row": 58,
+                  "column": 2,
+                  "json_pointer": null,
+                  "excerpt": "23:55 광운대"
+                }
+              ]
+            }
+          ],
+          "source_refs": [
+            {
+              "source_type": "xlsx",
+              "file_name": "Bosan-Train-TimeTable.xlsx",
+              "label": "Bosan-Train-TimeTable.xlsx • 보산역(일요일,동두천중앙 방향)",
+              "sheet_name": "보산역(일요일,동두천중앙 방향)",
+              "row": 2,
+              "column": 2,
+              "json_pointer": null,
+              "excerpt": "동두천중앙 방향"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_type": "generated",
+          "file_name": "Bosan-Train-TimeTable.xlsx",
+          "label": "Bosan-Train-TimeTable.xlsx • workbook",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": null,
+          "excerpt": null
+        }
+      ]
+    },
+    {
+      "provider_id": "jihaeng",
+      "station_name": "Jihaeng Station / 지행역",
+      "aliases": [
+        "jihaeng",
+        "지행",
+        "지행역",
+        "jihaeng station"
+      ],
+      "available": false,
+      "not_available_reason": "Jihaeng timetable data has not been uploaded yet.",
+      "notes": [
+        "Provider scaffold exists, but no timetable file is connected yet."
+      ],
+      "sheets": [],
+      "source_refs": [
+        {
+          "source_type": "generated",
+          "file_name": "placeholder",
+          "label": "Jihaeng provider placeholder",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": null,
+          "excerpt": null
+        }
+      ]
+    }
+  ]
+}

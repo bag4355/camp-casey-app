@@ -1,0 +1,2491 @@
+{
+    "stores": [
+      {
+        "store_name": "Casey Indianhead Golf Course Restaurant Delivery Service",
+        "phone": [
+          "010-7707-8192",
+          "010-7707-6382",
+          "010-8582-7597"
+        ],
+        "updated_date": "2025-12-18",
+        "delivery_hours": {
+          "breakfast": {
+            "mon_fri": "0800-1030",
+            "sat_sun_us_holiday": "0800-1130"
+          },
+          "lunch_dinner": {
+            "mon_fri": "1130-1930",
+            "sat_sun_us_holiday": "1200-1930"
+          }
+        },
+        "regular_hours_of_operation": {
+          "breakfast": {
+            "mon_fri": "0630-1030",
+            "sat_sun_us_holiday": "0630-1130"
+          },
+          "lunch_dinner": {
+            "mon_fri": "1100-2000",
+            "sat_sun_us_holiday": "1200-2000"
+          }
+        },
+        "minimum_order": "$10",
+        "payment": [
+          "Credit Card Only"
+        ],
+        "sections": [
+          {
+            "section_name": "Breakfast Menu",
+            "combo_note": "Make it a COMBO for an extra $3.50",
+            "combo_options": [
+              "Choose 2: Toast, Grits or Steamed Rice",
+              "or",
+              "Choose 1: French Toast or 2 Pancake"
+            ],
+            "items": [
+              {
+                "name": "Early Bird Sandwich",
+                "price": "$9.50",
+                "description": "One egg with your choice of sausage, ham or bacon, and American cheese, served on an English muffin with Hashbrowns."
+              },
+              {
+                "name": "Bagel Sandwich",
+                "price": "$11.50",
+                "description": "One egg with your choice of sausage, ham or bacon, and American cheese on a Bagel with Hashbrowns."
+              },
+              {
+                "name": "French Connection",
+                "price": "$12.95",
+                "description": "Our special French toast, two eggs cooked to order, with your choice of sausage, ham or bacon and Hashbrowns."
+              },
+              {
+                "name": "Golfer's Special",
+                "price": "$10.95",
+                "description": "Two eggs cooked to order, with your choice of sausage, ham or bacon and Hashbrowns."
+              },
+              {
+                "name": "Duffer's Choice",
+                "price": "$13.95",
+                "description": "Two pancakes, three eggs cooked to order, with your choice of sausage, ham or bacon and Hashbrowns."
+              },
+              {
+                "name": "Steak & Eggs",
+                "price": "$19.95",
+                "description": "A grilled breakfast 5oz Steak with two eggs cooked to order, with Hashbrowns."
+              },
+              {
+                "name": "T-Bone & Eggs",
+                "price": "$39.00",
+                "description": "A grilled breakfast 16oz T-Bone steak with two eggs cooked to order, with Hashbrowns."
+              }
+            ],
+            "subsections": [
+              {
+                "name": "Omelets",
+                "note": "Served with Hashbrown.",
+                "items": [
+                  {
+                    "name": "Tomato Omelet",
+                    "price": "$9.95",
+                    "description": "Three eggs with grilled tomato and mozzarella cheese."
+                  },
+                  {
+                    "name": "Denver Omelet",
+                    "price": "$10.95",
+                    "description": "Three eggs with sauteed bell peppers, onions, ham and American cheese."
+                  },
+                  {
+                    "name": "Power Omelet",
+                    "price": "$11.95",
+                    "description": "Three eggs-filled with your choice of sausage, ham, or bacon with American, Swiss, or Cheddar Cheese and onions, green peppers, tomato, mushroom."
+                  },
+                  {
+                    "name": "Chicken Omelet",
+                    "price": "$11.95",
+                    "description": "Three eggs with grilled chicken breast, tomato, spinach, and mozzarella cheese."
+                  },
+                  {
+                    "name": "Crab & Shrimp Omelet",
+                    "price": "$11.95",
+                    "description": "Three eggs with imitation crab meat and baby shrimp, sauteed onions, and melted cheddar cheese."
+                  },
+                  {
+                    "name": "Philly Cheese Steak Omelet",
+                    "price": "$12.95",
+                    "description": "Three eggs with thin-sliced grilled beef with stir onions, green peppers and swiss cheese."
+                  }
+                ]
+              },
+              {
+                "name": "Pancakes",
+                "items": [
+                  {
+                    "name": "1 Pancake",
+                    "price": "$2.95"
+                  },
+                  {
+                    "name": "2 Pancakes",
+                    "price": "$4.95"
+                  },
+                  {
+                    "name": "3 Pancakes",
+                    "price": "$7.95"
+                  }
+                ]
+              },
+              {
+                "name": "Waffles",
+                "items": [
+                  {
+                    "name": "Waffle",
+                    "price": "$5.95"
+                  },
+                  {
+                    "name": "Blueberry Waffle",
+                    "price": "$6.95"
+                  },
+                  {
+                    "name": "Chocolate Waffle",
+                    "price": "$6.95"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "Pin High Cafe",
+            "delivery_hours": "0800-2000",
+            "items": [
+              {
+                "name": "Coffee",
+                "note": "Hot or Iced",
+                "sizes": [
+                  {
+                    "size": "Venti",
+                    "items": [
+                      {
+                        "name": "Café Americano",
+                        "price": "$4.00"
+                      },
+                      {
+                        "name": "Café Latte",
+                        "price": "$4.25"
+                      },
+                      {
+                        "name": "Café Mocha",
+                        "price": "$4.50"
+                      },
+                      {
+                        "name": "Café White Chocolate Mocha",
+                        "price": "$4.50"
+                      },
+                      {
+                        "name": "Vanilla Latte",
+                        "price": "$4.50"
+                      },
+                      {
+                        "name": "Caramel Macchiato",
+                        "price": "$4.50"
+                      }
+                    ]
+                  }
+                ],
+                "extra_options": [
+                  {
+                    "name": "Add Flavors",
+                    "price": "$0.50"
+                  },
+                  {
+                    "name": "Extra Shot",
+                    "price": "$1.00"
+                  }
+                ]
+              },
+              {
+                "name": "Frappe",
+                "price": "$4.50",
+                "flavors": [
+                  "Vanilla",
+                  "Caramel",
+                  "Mocha",
+                  "Strawberry"
+                ]
+              },
+              {
+                "name": "Shake",
+                "price": "$4.95",
+                "flavors": [
+                  "Vanilla",
+                  "Strawberry",
+                  "Chocolate"
+                ]
+              },
+              {
+                "name": "Smoothie",
+                "price": "$4.00",
+                "flavors": [
+                  "Banana",
+                  "Strawberry-Banana",
+                  "Mixed Berry Blend",
+                  "Strawberry"
+                ]
+              },
+              {
+                "name": "Sweet Things",
+                "items": [
+                  {
+                    "name": "Assorted Cookie",
+                    "price": "$1.95"
+                  },
+                  {
+                    "name": "Brownie",
+                    "price": "$1.95"
+                  },
+                  {
+                    "name": "Assorted Muffin",
+                    "price": "$1.95"
+                  },
+                  {
+                    "name": "Cheese Cake",
+                    "price": "$5.25"
+                  },
+                  {
+                    "name": "Desert Pie",
+                    "price": "$5.25",
+                    "description": "Apple Pie, Pumpkin Pie or Pecan Pie"
+                  }
+                ]
+              },
+              {
+                "name": "Beverages Available",
+                "items": [
+                  "Soda (Coke, Zero Coke, Sprite, Mt. Dew)",
+                  "Iced Tea",
+                  "Lemonade",
+                  "Monster",
+                  "Perrier",
+                  "Powerade",
+                  "Bottle Water"
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "Appetizers",
+            "items": [
+              {
+                "name": "Mozzarella Cheese Sticks",
+                "price": "$7.95"
+              },
+              {
+                "name": "Shrimp Basket",
+                "price": "$11.95"
+              },
+              {
+                "name": "Chili Pepper & Cheese",
+                "price": "$6.95"
+              },
+              {
+                "name": "Sea Food Quesadilla",
+                "price": "$9.95"
+              },
+              {
+                "name": "Chicken Quesadilla",
+                "price": "$9.95"
+              },
+              {
+                "name": "Chicken Tenders",
+                "price": "$7.95"
+              },
+              {
+                "name": "Wicked Wings",
+                "price_options": [
+                  {
+                    "quantity": "12pc",
+                    "price": "$14.00"
+                  },
+                  {
+                    "quantity": "24pc",
+                    "price": "$28.00"
+                  }
+                ]
+              },
+              {
+                "name": "Yaki Mandu",
+                "price_options": [
+                  {
+                    "quantity": "5pc",
+                    "price": "$4.95"
+                  },
+                  {
+                    "quantity": "10pc",
+                    "price": "$6.95"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "Salads",
+            "items": [
+              {
+                "name": "Chef Salad",
+                "price": "$11.95",
+                "description": "Mixed greens with garden vegetables, ham, turkey, hard-boiled eggs and shredded cheese."
+              },
+              {
+                "name": "Caesar Salad",
+                "price": "$8.95",
+                "description": "Fresh romaine lettuce tossed with Parmesan cheese, croutons with Caesar style dressing."
+              },
+              {
+                "name": "Chicken Caesar Salad",
+                "price": "$11.95",
+                "description": "Fresh romaine lettuce tossed with Parmesan cheese, croutons with Caesar style dressing, topped with a lightly seasoned, grilled chicken breast."
+              },
+              {
+                "name": "Chicken Tender Salad",
+                "price": "$13.95",
+                "description": "Fried chicken tenders with mixed greens with garden vegetables."
+              },
+              {
+                "name": "Grilled Chicken Salad",
+                "price": "$13.95",
+                "description": "Grilled chicken breast with mixed green with garden vegetables."
+              },
+              {
+                "name": "Steakhouse Salad",
+                "price": "$17.95",
+                "description": "Beef Striploin steak, bacon, mixed greens with garden vegetables, ham and hard-boiled eggs."
+              },
+              {
+                "name": "Grilled Salmon Salad",
+                "price": "$16.95",
+                "description": "Grilled Salmon with mixed green with garden vegetables."
+              },
+              {
+                "name": "Grilled Shrimp Salad",
+                "price": "$16.95",
+                "description": "Grilled Shrimp with mixed green with garden vegetables."
+              },
+              {
+                "name": "Ricotta Cheese Salad",
+                "price": "$16.95",
+                "description": "Mixed green with garden vegetables, hard-boiled egg, dried almond and Ricotta cheese."
+              }
+            ]
+          },
+          {
+            "section_name": "Wraps",
+            "note": "Served with french fries.",
+            "items": [
+              {
+                "name": "Veggie Wrap",
+                "price": "$8.95"
+              },
+              {
+                "name": "Chicken Caesar Wrap",
+                "price": "$10.95"
+              },
+              {
+                "name": "Bulgogi Wrap",
+                "price": "$11.95"
+              },
+              {
+                "name": "Steak Wrap",
+                "price": "$12.95"
+              },
+              {
+                "name": "Philly Cheese Steak Wrap",
+                "price": "$11.95"
+              }
+            ]
+          },
+          {
+            "section_name": "Entrée",
+            "notes": [
+              "Served with choice of today's soup or house salad.",
+              "Choice of baked potato, French fries or steamed rice and vegetable included.",
+              "Beverage included where stated."
+            ],
+            "items": [
+              {
+                "name": "T-Bone Steak",
+                "price": "$45.00",
+                "tags": [
+                  "BEST"
+                ],
+                "description": "An Indianhead Club House favorite! A prime cut T-bone steak char broiled to order. Beverage included."
+              },
+              {
+                "name": "Rib Eye Steak",
+                "price": "$45.00",
+                "description": "A prime rib eye steak lightly seasoned and grilled to your specification. Beverage included."
+              },
+              {
+                "name": "Filet Mignon",
+                "price": "$37.00",
+                "description": "10 ounce filet mignon grilled to perfection served. Beverage included."
+              },
+              {
+                "name": "New York Strip",
+                "price": "$37.00",
+                "description": "An extra thick cut of popular aged strip loin, broiled to order. Beverage included."
+              },
+              {
+                "name": "London Broil",
+                "price": "$29.00",
+                "description": "Nine ounces of thinly sliced prime beef tips served with brown gravy with mushroom."
+              },
+              {
+                "name": "Grilled Marinated Chicken Breast",
+                "price": "$22.00",
+                "description": "Eight ounces of boneless chicken breasts marinated in our special spices and grilled to perfection."
+              },
+              {
+                "name": "Grilled Salmon Fillet",
+                "price": "$24.00",
+                "description": "Pacific Salmon seasoned with our house herbs mix and grilled to perfection."
+              },
+              {
+                "name": "Chicken Cordon Bleu",
+                "price": "$22.00",
+                "description": "Chicken stuffed with ham and cheese, coated with crunchy golden breadcrumbs with cream sauce."
+              },
+              {
+                "name": "Fried Chicken Basket",
+                "price": "$19.95",
+                "notes": [
+                  "Not be served"
+                ],
+                "description": "Fried breaded chicken pieces with French fries. Served with your choice of dressings."
+              },
+              {
+                "name": "Fried Breaded Catfish Fillet",
+                "price": "$22.00",
+                "notes": [
+                  "Not be served"
+                ],
+                "description": "Fried breaded catfish fillet, macaroni salad, French fries with tartar sauce."
+              }
+            ]
+          },
+          {
+            "section_name": "Sandwiches",
+            "note": "Served with french fries.",
+            "items": [
+              {
+                "name": "Casey Classic Club",
+                "price": "$9.95",
+                "description": "Slices of tender ham, turkey, bacon and American and Swiss cheese layered on toasted bread with lettuce and tomato."
+              },
+              {
+                "name": "Steak Sandwich",
+                "price": "$12.95",
+                "description": "Beef Striploin steak, served on a toasted hoagie roll with lettuce and tomato."
+              },
+              {
+                "name": "Philly Cheese Steak",
+                "price": "$11.95",
+                "description": "Thin-sliced grilled beef with stir onions, green peppers and melted Swiss cheese on a toasted hoagie roll."
+              },
+              {
+                "name": "Patty Melt",
+                "price": "$9.95",
+                "description": "A juicy beef patty with caramelized onions, Swiss cheese or cheddar cheese on rye bread."
+              },
+              {
+                "name": "Meatball Hoagie",
+                "price": "$11.95",
+                "description": "Oven roasted meatballs smothered in marinara sauce and topped with melted mozzarella cheese on toasted hoagie roll."
+              },
+              {
+                "name": "Pulled Pork Sandwich",
+                "price": "$12.00",
+                "description": "Marinated pulled pork, red onion, lettuce, and tomato on a hamburger bun."
+              },
+              {
+                "name": "Reuben Sandwich",
+                "price": "$12.00",
+                "description": "Corned beef, sauerkraut, thousand island dressing and swiss cheese on rye bread."
+              },
+              {
+                "name": "BLT",
+                "price": "$7.50",
+                "description": "Crisp bacon, fresh lettuce and tomato layered on toasted bread."
+              },
+              {
+                "name": "Ham Cheese Sandwich",
+                "price": "$7.50"
+              }
+            ]
+          },
+          {
+            "section_name": "Burgers",
+            "note": "Served with lettuce, tomato and red onion. Your choice of French fries or onion rings.",
+            "items": [
+              {
+                "name": "Tiger Woods Burger",
+                "price": "$11.00",
+                "description": "A juicy beef patty, Swiss cheese and three slices of bacon.",
+                "extra_note": "*Guacamole available"
+              },
+              {
+                "name": "All American",
+                "price": "$11.00",
+                "description": "An American classic burger with your choice of American or Swiss cheese."
+              },
+              {
+                "name": "Mushroom Swiss Burger",
+                "price": "$11.00",
+                "description": "Melted Swiss cheese, mushrooms sautéed in onions top a hand-pressed beef patty."
+              },
+              {
+                "name": "Chicken Bacon Classic Burger",
+                "price": "$11.00",
+                "description": "A grilled seasoned chicken breast topped with melted Swiss cheese and bacon."
+              },
+              {
+                "name": "The Texan Burger",
+                "price": "$12.95",
+                "description": "Specialty burger topped with pulled pork, Swiss cheese in BBQ sauce."
+              },
+              {
+                "name": "Double Cheeseburger",
+                "price": "$14.95",
+                "description": "Your choice of American, Swiss or cheddar cheese tops two hand-pressed beef patties."
+              },
+              {
+                "name": "21D Casey Burger",
+                "price": "$15.95",
+                "description": "Your choice of American, Swiss or cheddar cheese tops two hand-pressed beef patties topped with fried egg and three slices of bacon."
+              },
+              {
+                "name": "Fried Chicken Burger",
+                "price": "$15.00",
+                "description": "Fried breaded Chicken Breast."
+              }
+            ]
+          },
+          {
+            "section_name": "Pastas",
+            "note": "Served with Garlic Bread and grated Parmesan cheese.",
+            "items": [
+              {
+                "name": "Penne Alfredo",
+                "price": "$11.95",
+                "description": "Penne pasta tossed in a rich, creamy white sauce.",
+                "add_grilled_chicken": "$13.95",
+                "add_grilled_shrimp": "$15.95"
+              },
+              {
+                "name": "Cajun Pasta",
+                "price": "$15.95",
+                "description": "Grilled chicken, shrimp and andouille sausage with a cajun marinara sauce, sauteed bell peppers and onions in penne pasta."
+              },
+              {
+                "name": "Spaghetti with Meatballs",
+                "price": "$13.95",
+                "description": "A heaping portion of spaghetti topped with tomato meat sauce and meatballs."
+              }
+            ]
+          },
+          {
+            "section_name": "Korean Specialties",
+            "items": [
+              {
+                "name": "Bulgogi & Rice",
+                "price": "$11.95",
+                "description": "A favorite traditional dish of thinly sliced marinated beef."
+              },
+              {
+                "name": "Spicy Pork & Rice",
+                "price": "$11.95",
+                "description": "Marinated pork in red pepper paste with stir fried vegetables."
+              },
+              {
+                "name": "Fried Rice",
+                "price": "$10.95",
+                "description": "Chopped beef or chicken mixed with rice and vegetables and stir fried on a flat grill."
+              },
+              {
+                "name": "Mixed Grill & Rice",
+                "description": "Marinated beef or chicken and sausage with stir fried vegetables.",
+                "price_options": [
+                  {
+                    "type": "Chicken",
+                    "price": "$10.95"
+                  },
+                  {
+                    "type": "Beef",
+                    "price": "$11.95"
+                  },
+                  {
+                    "type": "Combo",
+                    "price": "$12.95"
+                  }
+                ]
+              },
+              {
+                "name": "Anju & Rice",
+                "description": "Grilled with mixed vegetables on a hot flat grill.",
+                "price_options": [
+                  {
+                    "type": "Chicken",
+                    "price": "$17.95"
+                  },
+                  {
+                    "type": "Steak",
+                    "price": "$21.00"
+                  },
+                  {
+                    "type": "Combo",
+                    "price": "$24.00"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "store_name": "Warrior's Club Delivery Menu",
+        "phone": [
+          "010-5727-4625"
+        ],
+        "updated_date": "2025-01-23",
+        "hours": {
+          "sun_thu": "1100-2200",
+          "fri_sat": "1100-2330"
+        },
+        "minimum_delivery_order": "$10",
+        "sections": [
+          {
+            "section_name": "1/2 LB BAMA'S BIG BURGERS",
+            "items": [
+              {
+                "name": "BAMA's Burger",
+                "price": "$8.50"
+              },
+              {
+                "name": "Cheese Burger",
+                "price": "$9.00"
+              },
+              {
+                "name": "Bacon Cheese Burger",
+                "price": "$10.50"
+              },
+              {
+                "name": "Mushroom N' Swiss Burger",
+                "price": "$9.50"
+              },
+              {
+                "name": "Hash Brown Burger",
+                "price": "$10.00"
+              },
+              {
+                "name": "Peanut Butter Burger",
+                "price": "$10.50"
+              },
+              {
+                "name": "Fire Cracker Burger",
+                "price": "$11.00"
+              },
+              {
+                "name": "Reuben Burger",
+                "price": "$11.00"
+              },
+              {
+                "name": "1LB Big Burger",
+                "price": "$16.50"
+              }
+            ]
+          },
+          {
+            "section_name": "Sandwiches",
+            "items": [
+              {
+                "name": "Pulled Pork Sandwich",
+                "price": "$7.00"
+              },
+              {
+                "name": "Crispy Chicken Sandwich",
+                "price": "$8.00"
+              },
+              {
+                "name": "Grilled Chicken Sandwich",
+                "price": "$8.00"
+              },
+              {
+                "name": "Buffalo Grilled Chicken Sandwich",
+                "price": "$8.00"
+              }
+            ]
+          },
+          {
+            "section_name": "Wraps",
+            "items": [
+              {
+                "name": "BBQ Pork Wrap",
+                "price": "$7.00"
+              },
+              {
+                "name": "Crispy Chicken Ranch Wrap",
+                "price": "$7.00"
+              },
+              {
+                "name": "Grilled Chicken Ranch Wrap",
+                "price": "$7.00"
+              },
+              {
+                "name": "Chicken Caesar Wrap",
+                "price": "$7.00"
+              },
+              {
+                "name": "Kickin Chicken Buffalo Wrap",
+                "price": "$7.00"
+              },
+              {
+                "name": "Cranberry Turkey Wrap",
+                "price": "$7.00"
+              }
+            ]
+          },
+          {
+            "section_name": "Pastas / Rice",
+            "items": [
+              {
+                "name": "Creamy Chicken & Bacon Pasta",
+                "price": "$10.50"
+              },
+              {
+                "name": "Cajun Shrimp Pasta",
+                "price": "$13.00"
+              },
+              {
+                "name": "Pork Teriyaki Rice",
+                "price": "$9.50"
+              },
+              {
+                "name": "Chicken Mayo Rice",
+                "price": "$10.00"
+              },
+              {
+                "name": "Grilled Chicken Teriyaki Rice",
+                "price": "$9.50"
+              }
+            ],
+            "extras": [
+              {
+                "name": "Grilled Chicken",
+                "price": "$4.00"
+              },
+              {
+                "name": "Crispy Chicken (1pc)",
+                "price": "$1.75"
+              },
+              {
+                "name": "Crispy Chicken (2pc)",
+                "price": "$3.50"
+              },
+              {
+                "name": "Shrimp (4ea)",
+                "price": "$4.00"
+              },
+              {
+                "name": "Shrimp (8ea)",
+                "price": "$7.95"
+              },
+              {
+                "name": "Garlic Bread (1pc)",
+                "price": "$0.75"
+              }
+            ]
+          },
+          {
+            "section_name": "Appetizers",
+            "items": [
+              {
+                "name": "Chicken Strips",
+                "price_options": [
+                  {
+                    "quantity": "4pc",
+                    "price": "$6.00"
+                  },
+                  {
+                    "quantity": "6pc",
+                    "price": "$8.50"
+                  }
+                ]
+              },
+              {
+                "name": "Mozzarella Sticks",
+                "price": "$7.00",
+                "quantity": "6pc"
+              },
+              {
+                "name": "Jalapeño Poppers",
+                "price": "$7.00",
+                "quantity": "6pc"
+              },
+              {
+                "name": "Mac & Cheese Bites",
+                "price": "$6.00",
+                "quantity": "8pc"
+              },
+              {
+                "name": "Popcorn Shrimp",
+                "price": "$6.50",
+                "quantity": "6oz"
+              },
+              {
+                "name": "Coconut Shrimp",
+                "price_options": [
+                  {
+                    "quantity": "5pc",
+                    "price": "$6.50"
+                  },
+                  {
+                    "quantity": "10pc",
+                    "price": "$12.50"
+                  }
+                ]
+              },
+              {
+                "name": "Fried Mandu",
+                "price": "$5.00",
+                "quantity": "5pc"
+              },
+              {
+                "name": "Nachos Supreme",
+                "price": "$10.50",
+                "description": "Choice of Chicken or Pork"
+              }
+            ]
+          },
+          {
+            "section_name": "Wings",
+            "items": [
+              {
+                "name": "Boneless Chicken",
+                "price_options": [
+                  {
+                    "quantity": "Half LB",
+                    "price": "$8.00"
+                  },
+                  {
+                    "quantity": "Full LB",
+                    "price": "$15.50"
+                  }
+                ]
+              },
+              {
+                "name": "Chicken Wings",
+                "price_options": [
+                  {
+                    "quantity": "5 Wings",
+                    "price": "$8.50"
+                  },
+                  {
+                    "quantity": "10 Wings",
+                    "price": "$15.50"
+                  }
+                ]
+              }
+            ],
+            "sauce_option_4oz": "$1.00",
+            "sauces": [
+              "Buffalo",
+              "Chipotle BBQ",
+              "Sweet BBQ",
+              "Garlic Parmesan",
+              "Honey Mustard",
+              "Sweet Sriracha",
+              "Lemon Pepper",
+              "Maple Garlic"
+            ]
+          },
+          {
+            "section_name": "Side",
+            "items": [
+              {
+                "name": "Waffle Cut Fries",
+                "small": "$2.50",
+                "large": "$5.50"
+              },
+              {
+                "name": "French Fries",
+                "small": "$2.50",
+                "large": "$5.50"
+              },
+              {
+                "name": "Sweet Potato Fries",
+                "small": "$2.50",
+                "large": "$5.50"
+              },
+              {
+                "name": "Onion Rings",
+                "small": "$3.00",
+                "large": "$6.50"
+              },
+              {
+                "name": "Mac & Cheese (6oz)",
+                "price": "$2.50"
+              },
+              {
+                "name": "Coleslaw",
+                "price": "$2.50"
+              },
+              {
+                "name": "Side Salad",
+                "price": "$2.50"
+              },
+              {
+                "name": "Celery & Carrot",
+                "price": "$3.00",
+                "description": "with Ranch"
+              },
+              {
+                "name": "Steam Rice",
+                "price_options": [
+                  {
+                    "quantity": "Cup",
+                    "price": "$1.50"
+                  },
+                  {
+                    "quantity": "Bowl",
+                    "price": "$4.00"
+                  }
+                ]
+              },
+              {
+                "name": "Extra Sauce/Dressing (4oz)",
+                "price": "$1.00"
+              }
+            ]
+          },
+          {
+            "section_name": "Salads",
+            "items": [
+              {
+                "name": "Garden Salad",
+                "price": "$5.00"
+              },
+              {
+                "name": "BBQ Pulled Pork Salad",
+                "price": "$8.00"
+              },
+              {
+                "name": "Chef Salad",
+                "price": "$9.00"
+              },
+              {
+                "name": "Crispy Chicken Tender Salad",
+                "price": "$9.00"
+              },
+              {
+                "name": "BLT Grilled Chicken Salad",
+                "price": "$10.50"
+              },
+              {
+                "name": "Boneless Chicken Salad",
+                "price": "$13.00",
+                "description": "Choice of Sauce"
+              },
+              {
+                "name": "Grilled Shrimp & Pineapple Salad",
+                "price": "$13.00"
+              }
+            ],
+            "dressing_option_4oz": "$1.00",
+            "dressings": [
+              "Ranch",
+              "Caesar",
+              "Blue Cheese",
+              "Honey Mustard",
+              "Italian",
+              "Balsamic Vinegar",
+              "1000 Island"
+            ]
+          },
+          {
+            "section_name": "Salads (alternate board)",
+            "items": [
+              {
+                "name": "Garden Salad",
+                "price": "$5.00"
+              },
+              {
+                "name": "BBQ Pulled Pork Salad",
+                "price": "$8.95"
+              },
+              {
+                "name": "Crispy Chicken Tender Salad",
+                "price": "$8.95"
+              },
+              {
+                "name": "BLT Grilled Chicken Salad",
+                "price": "$9.95"
+              },
+              {
+                "name": "Buffalo Boneless Chicken Salad",
+                "price": "$13.50"
+              }
+            ],
+            "dressing_option_4oz": "$1.00",
+            "dressings": [
+              "Ranch",
+              "Caesar",
+              "Blue Cheese",
+              "Honey Mustard",
+              "Italian",
+              "Balsamic Vinegar",
+              "1000 Island"
+            ]
+          },
+          {
+            "section_name": "Appetizers (alternate board)",
+            "items": [
+              {
+                "name": "Chicken Strips",
+                "price_options": [
+                  {
+                    "quantity": "4pc",
+                    "price": "$5.95"
+                  },
+                  {
+                    "quantity": "6pc",
+                    "price": "$8.50"
+                  }
+                ]
+              },
+              {
+                "name": "Mozzarella Sticks",
+                "price": "$6.50",
+                "quantity": "6pc"
+              },
+              {
+                "name": "Jalapeño Poppers",
+                "price": "$6.95",
+                "quantity": "6pc"
+              },
+              {
+                "name": "Mac & Cheese Bites",
+                "price": "$5.95",
+                "quantity": "8pc"
+              },
+              {
+                "name": "Popcorn Shrimp",
+                "price": "$6.50",
+                "quantity": "6oz"
+              },
+              {
+                "name": "Fried Mandu",
+                "price": "$4.95",
+                "quantity": "5pc"
+              }
+            ]
+          },
+          {
+            "section_name": "Side (alternate board)",
+            "items": [
+              {
+                "name": "Waffle Cut Fries",
+                "small": "$2.50",
+                "large": "$5.50"
+              },
+              {
+                "name": "French Fries",
+                "small": "$2.50",
+                "large": "$5.50"
+              },
+              {
+                "name": "Sweet Potato Fries",
+                "small": "$2.50",
+                "large": "$5.50"
+              },
+              {
+                "name": "Onion Rings",
+                "small": "$3.00",
+                "large": "$6.50"
+              },
+              {
+                "name": "Mac & Cheese (6oz)",
+                "price": "$2.50"
+              },
+              {
+                "name": "Coleslaw",
+                "price": "$2.50"
+              },
+              {
+                "name": "Side Salad",
+                "price": "$2.50"
+              },
+              {
+                "name": "Steam Rice",
+                "price_options": [
+                  {
+                    "quantity": "Cup",
+                    "price": "$1.50"
+                  },
+                  {
+                    "quantity": "Bowl",
+                    "price": "$4.00"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "Beverages",
+            "items": [
+              {
+                "name": "Can Soda",
+                "price": "$1.25",
+                "flavors": [
+                  "Coke",
+                  "Sprite",
+                  "Dr. Pepper",
+                  "Mt. Dew",
+                  "Coke Zero",
+                  "Strawberry Soda",
+                  "Fresca"
+                ]
+              },
+              {
+                "name": "San Pellegrino-Sparkling Water (0.5L)",
+                "price": "$3.50"
+              },
+              {
+                "name": "Root Beer (Bottle)",
+                "price": "$2.75"
+              },
+              {
+                "name": "Jarritos",
+                "price": "$3.00",
+                "flavors": [
+                  "Fruit Punch",
+                  "Pineapple",
+                  "Lime",
+                  "Mandarin"
+                ]
+              },
+              {
+                "name": "Harney & Sons (Organic Juice)",
+                "price": "$3.50",
+                "flavors": [
+                  "Lemonade",
+                  "Orange Mango",
+                  "Cranberry"
+                ]
+              },
+              {
+                "name": "Premium Coconut Water",
+                "price": "$3.00"
+              },
+              {
+                "name": "Gatorade (28oz)",
+                "price": "$3.50"
+              },
+              {
+                "name": "Monster",
+                "price": "$3.75"
+              },
+              {
+                "name": "Red Bull 8.3oz (Original)",
+                "price": "$4.25"
+              },
+              {
+                "name": "1.5L Coke / Sprite",
+                "price": "$4.50"
+              },
+              {
+                "name": "Bottle Water",
+                "price": "$1.25"
+              },
+              {
+                "name": "2L Water",
+                "price": "$2.50"
+              },
+              {
+                "name": "2L Water (6pk)",
+                "price": "$7.00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "store_name": "Thunder (East Casey) KATUSA Snack Bar",
+        "phone": [
+          "010-3988-8481"
+        ],
+        "hours": {
+          "open": "10:00 ~ 19:40",
+          "closed": "SAT, SUN"
+        },
+        "payment": [
+          "WE TAKE CREDIT CARD"
+        ],
+        "sections": [
+          {
+            "section_name": "New Menu",
+            "items": [
+              {
+                "name": "Curry",
+                "price": "6.50"
+              },
+              {
+                "name": "Chicken / Bulgogi / Spam Curry w/rice",
+                "price": "8.50"
+              }
+            ]
+          },
+          {
+            "section_name": "Main Menu",
+            "items": [
+              {
+                "name": "Sweet sour Chicken and rice",
+                "price": "8.00"
+              },
+              {
+                "name": "Sweet sour Pork and rice",
+                "price": "8.00"
+              },
+              {
+                "name": "Tangy chicken and rice",
+                "price": "8.00"
+              },
+              {
+                "name": "Tangy Pork and rice",
+                "price": "8.00"
+              },
+              {
+                "name": "Chicken Nuggets and rice",
+                "price": "8.00"
+              },
+              {
+                "name": "Chicken wing",
+                "price": "8.00"
+              },
+              {
+                "name": "Chicken Tender loin",
+                "price": "8.50"
+              },
+              {
+                "name": "Bulgogi and rice",
+                "price": "7.50"
+              },
+              {
+                "name": "Spicy or Teriyakki Chicken and rice",
+                "price": "7.50"
+              },
+              {
+                "name": "Spicy Pork and rice",
+                "price": "7.00"
+              },
+              {
+                "name": "Spam & Egg rice",
+                "price": "7.00"
+              },
+              {
+                "name": "Bi-bim bab",
+                "price": "6.00"
+              },
+              {
+                "name": "Bulgogi or Chicken Bi-bim bab",
+                "price": "8.00"
+              },
+              {
+                "name": "Kim-bab (Seaweed rice roll)",
+                "price": "6.00"
+              },
+              {
+                "name": "Bulgogi / Chicken / cheese Kim-bab",
+                "price": "8.00"
+              },
+              {
+                "name": "Cheese Ra-myon",
+                "price": "4.00"
+              },
+              {
+                "name": "Chicken Cheese Ra-myon",
+                "price": "5.00"
+              },
+              {
+                "name": "Bulgogi Cheese Ra-myon",
+                "price": "5.00"
+              },
+              {
+                "name": "Mandu Ra-myon",
+                "price": "5.00"
+              },
+              {
+                "name": "Delux Ra-myon",
+                "price": "5.00"
+              },
+              {
+                "name": "Hotdog ra-myon",
+                "price": "5.00"
+              },
+              {
+                "name": "Chicken Delux Ra-myon",
+                "price": "6.00"
+              },
+              {
+                "name": "Bulgogi Delux Ra-myon",
+                "price": "6.00"
+              },
+              {
+                "name": "Egg roll (Cheese Omeletts)",
+                "price": "5.00"
+              },
+              {
+                "name": "Chicken / Bulgogi Egg roll",
+                "price": "6.50"
+              },
+              {
+                "name": "Fried Shrimp",
+                "price": "6.00"
+              },
+              {
+                "name": "Fried rice(vegetable)",
+                "price": "6.00"
+              },
+              {
+                "name": "Bulgogi Fried rice",
+                "price": "7.00"
+              },
+              {
+                "name": "Chicken Fried rice",
+                "price": "7.00"
+              },
+              {
+                "name": "Shrimp Fried rice",
+                "price": "7.00"
+              },
+              {
+                "name": "Combination Fried rice(shrimp+chicken)",
+                "price": "8.00"
+              },
+              {
+                "name": "Bulgogi Combination rice",
+                "price": "9.00"
+              },
+              {
+                "name": "Kim-Chi Fried rice",
+                "price": "6.00"
+              },
+              {
+                "name": "Yakimandu (Fried Dumpling)",
+                "price": "3.00"
+              },
+              {
+                "name": "Steam Mandu",
+                "price": "3.00"
+              },
+              {
+                "name": "Cheese stick",
+                "price": "5.00"
+              },
+              {
+                "name": "French Fries",
+                "price": "3.00"
+              },
+              {
+                "name": "Fried Squid ring",
+                "price": "3.00"
+              },
+              {
+                "name": "Dwen-Jang Soup",
+                "price": "6.00",
+                "description": "Bean Curdstew with rice"
+              },
+              {
+                "name": "Soon-Doo-Boo Soup",
+                "price": "6.00",
+                "description": "Spicy Soft Tofu Soup with rice"
+              },
+              {
+                "name": "Kim-Chi Soup",
+                "price": "6.00",
+                "description": "Kim-Chi, Tofu and Pork with rice"
+              },
+              {
+                "name": "Mandu Soup",
+                "price": "6.00",
+                "description": "Dumpling, Beef and Egg Soup"
+              }
+            ]
+          },
+          {
+            "section_name": "Beverage",
+            "items": [
+              {
+                "name": "[0.5L]",
+                "price": "2.00",
+                "options": [
+                  "Gatorade",
+                  "Pepsi",
+                  "Diet coke",
+                  "Diet pepsi",
+                  "Sprite",
+                  "Peach tea"
+                ]
+              },
+              {
+                "name": "[1.5L]",
+                "price": "3.50",
+                "options": [
+                  "Lemonade",
+                  "Powerade",
+                  "Gatorade",
+                  "Mountain dew",
+                  "Pepsi",
+                  "Fanta",
+                  "Sprite",
+                  "Milkis",
+                  "2% (Peach)"
+                ]
+              },
+              {
+                "name": "[1.5L juice]",
+                "price": "4.50",
+                "options": [
+                  "Aloe",
+                  "Orange",
+                  "Mango",
+                  "Grape",
+                  "Apple"
+                ]
+              },
+              {
+                "name": "[Coffee] Americano, Latte",
+                "price": "2.50"
+              },
+              {
+                "name": "[Can] Monster",
+                "price": "2.50"
+              },
+              {
+                "name": "[Can] Hot6",
+                "price": "2.00"
+              },
+              {
+                "name": "[Can]",
+                "price": "1.50",
+                "options": [
+                  "Mountain dew",
+                  "Pepsi",
+                  "Dr.p",
+                  "Grape soda",
+                  "Strawberry",
+                  "Coffee",
+                  "Fanta(Orange, Pineapple)"
+                ]
+              },
+              {
+                "name": "[2L] Water",
+                "price": "1.25"
+              }
+            ]
+          }
+        ],
+        "additions": [
+          "Egg",
+          "Cheese",
+          "Spam",
+          "Crushed red pepper",
+          "daily sidedish"
+        ],
+        "recommended_menu": [
+          "Vege Yakimandu",
+          "Spam Curry",
+          "Kim Bab"
+        ],
+        "delivery_service_number": "010-3988-8481",
+        "notes": [
+          "Phone Number Change +010-3988-8481"
+        ]
+      },
+      {
+        "store_name": "Warrior's Club Breakfast",
+        "phone": [
+          "010-5727-4625"
+        ],
+        "updated_date": "2025-12-12",
+        "minimum_delivery_order": "$10",
+        "hours": {
+          "mon_fri": "0700-1100",
+          "sat_sun_us_holiday_training_holiday": "0800-1100"
+        },
+        "sections": [
+          {
+            "section_name": "Breakfast Sandwiches",
+            "note": "*Choice of Croissant, Biscuit or Waffle Sandwich",
+            "items": [
+              {
+                "name": "Sausage (with Egg & Cheese)",
+                "price": "4.50"
+              },
+              {
+                "name": "Ham (with Egg & Cheese)",
+                "price": "4.50"
+              },
+              {
+                "name": "Bacon (with Egg & Cheese)",
+                "price": "4.50"
+              },
+              {
+                "name": "Egg & Cheese",
+                "price": "4.00"
+              }
+            ]
+          },
+          {
+            "section_name": "Breakfast Burritos",
+            "items": [
+              {
+                "name": "Original Burrito",
+                "price": "5.00"
+              },
+              {
+                "name": "Skillet Burrito",
+                "price": "5.95"
+              }
+            ]
+          },
+          {
+            "section_name": "Breakfast Pizzas",
+            "size": "8 Inch",
+            "items": [
+              {
+                "name": "Egg Meat Lover",
+                "price": "8.00"
+              },
+              {
+                "name": "Egg Supreme",
+                "price": "8.50"
+              }
+            ]
+          },
+          {
+            "section_name": "More Breakfast Choices",
+            "items": [
+              {
+                "name": "Biscuit (2pc)",
+                "price": "2.95"
+              },
+              {
+                "name": "Hash Brown",
+                "price": "1.00"
+              }
+            ]
+          },
+          {
+            "section_name": "Sweets",
+            "items": [
+              {
+                "name": "Cookie",
+                "price": "1.50"
+              },
+              {
+                "name": "Brownie",
+                "price": "2.00"
+              },
+              {
+                "name": "Cinnamon Roll",
+                "price": "2.50"
+              }
+            ]
+          },
+          {
+            "section_name": "Coffee",
+            "note": "*Choice of Hot or Ice",
+            "items": [
+              {
+                "name": "Fresh Brewed Coffee (Hot Only)",
+                "price": "2.00"
+              },
+              {
+                "name": "Americano",
+                "price": "4.00"
+              },
+              {
+                "name": "Café Latte",
+                "price": "4.25"
+              },
+              {
+                "name": "Café Mocha",
+                "price": "4.50"
+              },
+              {
+                "name": "Dolche Latte",
+                "price": "4.50"
+              },
+              {
+                "name": "White Chocolate Mocha",
+                "price": "4.50"
+              },
+              {
+                "name": "Vanilla Latte",
+                "price": "4.50"
+              },
+              {
+                "name": "Caramel Macchiato",
+                "price": "4.50"
+              }
+            ]
+          },
+          {
+            "section_name": "Beverage",
+            "items": [
+              {
+                "name": "Can Soda",
+                "price": "1.25",
+                "options": [
+                  "Coke",
+                  "Sprite",
+                  "Dr. Pepper",
+                  "Mt. Dew",
+                  "Coke Zero",
+                  "Strawberry Soda",
+                  "Fresca"
+                ]
+              },
+              {
+                "name": "Juice (Orange or Apple) 10oz",
+                "price": "2.00"
+              },
+              {
+                "name": "Bottle Water",
+                "price": "1.25"
+              },
+              {
+                "name": "San Pellegrino (Sparkling Water) 0.5L",
+                "price": "3.50"
+              },
+              {
+                "name": "Jarritos",
+                "price": "3.00",
+                "options": [
+                  "Fruit Punch",
+                  "Pineapple",
+                  "Lime",
+                  "Mandarin"
+                ]
+              },
+              {
+                "name": "Harney & Sons (Organic Juice)",
+                "price": "3.50",
+                "options": [
+                  "Lemonade",
+                  "Orange Mango",
+                  "Cranberry"
+                ]
+              },
+              {
+                "name": "Lipton Sweet Tea (Pure Leaf)",
+                "price": "3.00"
+              },
+              {
+                "name": "Peach Iced Tea (20oz)",
+                "price": "4.50"
+              },
+              {
+                "name": "Gatorade (28oz)",
+                "price": "3.50"
+              },
+              {
+                "name": "Monster",
+                "price": "3.75"
+              },
+              {
+                "name": "Red Bull 12oz (Flavored)",
+                "price": "4.75"
+              },
+              {
+                "name": "1.5L Soda (Coke or Sprite)",
+                "price": "4.50"
+              },
+              {
+                "name": "2L Water *6pk",
+                "price": "7.00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "store_name": "Crack Chicken",
+        "phone": [
+          "+82 10 2822 3553"
+        ],
+        "instagram": "CRACK_CK",
+        "delivery_charge": "$10",
+        "address": "경기도 동두천시 보산동 417-1 1층",
+        "sections": [
+          {
+            "section_name": "Boneless Fried Chicken",
+            "items": [
+              {
+                "name": "Plain / 순살 후라이드",
+                "small_price": "$9",
+                "large_price": "$13"
+              },
+              {
+                "name": "Cheese / 치즈치킨",
+                "small_price": "$10",
+                "large_price": "$14"
+              },
+              {
+                "name": "Teriyaki / 간장치킨",
+                "small_price": "$10",
+                "large_price": "$14"
+              },
+              {
+                "name": "Garlic / 갈릭치킨",
+                "small_price": "$10",
+                "large_price": "$14"
+              },
+              {
+                "name": "Sweet & Sour / 양념치킨",
+                "small_price": "$10",
+                "large_price": "$14"
+              },
+              {
+                "name": "Garlic & Cheese / 스노윙",
+                "small_price": "$12",
+                "large_price": "$16"
+              },
+              {
+                "name": "Spicy Cheese / 매운 치즈",
+                "small_price": "$10",
+                "large_price": "$14"
+              },
+              {
+                "name": "Shrimp / 새우강정정",
+                "small_price": "$13",
+                "large_price": "$19"
+              }
+            ]
+          },
+          {
+            "section_name": "Side Menu",
+            "items": [
+              {
+                "name": "Rice",
+                "price_delta": "+$2"
+              },
+              {
+                "name": "Crack Cheese Stick",
+                "price_delta": "+$3"
+              },
+              {
+                "name": "French Fried",
+                "price_delta": "+$3"
+              },
+              {
+                "name": "Rice Cakes (10ps)",
+                "price_delta": "+$1"
+              },
+              {
+                "name": "Dumplings (5ps)",
+                "price_delta": "+$1"
+              },
+              {
+                "name": "Chicken Skin",
+                "price_delta": "+$4"
+              }
+            ]
+          },
+          {
+            "section_name": "Deeping Sauce",
+            "items": [
+              {
+                "name": "Hot & Spicy",
+                "price_delta": "+$1"
+              },
+              {
+                "name": "Fucking Spicy",
+                "price_delta": "+$0"
+              },
+              {
+                "name": "Crack Powder",
+                "price_delta": "+$1"
+              },
+              {
+                "name": "Honey Mustard",
+                "price_delta": "+$1"
+              },
+              {
+                "name": "Ranch",
+                "price_delta": "+$1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "store_name": "Impact Zone",
+        "phone": [
+          "DSN 722-0395/0396/0397",
+          "COMM 0503-322-0395/0396/0397",
+          "CELL 010-7675-6499",
+          "010-7673-6499"
+        ],
+        "updated_date": "2025-03-05",
+        "hours": {
+          "sun_thu": "1100-2300",
+          "fri_sat_holiday": "1100-2400"
+        },
+        "minimum_delivery_order": "$12",
+        "last_order_note": "Last order 30 minutes before closing.",
+        "sections": [
+          {
+            "section_name": "1/2 LB Big Burgers",
+            "items": [
+              {
+                "name": "Gateway Burger",
+                "price": "$7.95"
+              },
+              {
+                "name": "Cheeseburger",
+                "price": "$8.95"
+              },
+              {
+                "name": "Bacon Cheeseburger",
+                "price": "$9.50"
+              },
+              {
+                "name": "5-Alarm Burger",
+                "price": "$9.95"
+              },
+              {
+                "name": "Mushroom Bacon Cheeseburger",
+                "price": "$9.95"
+              }
+            ]
+          },
+          {
+            "section_name": "Made-to-Order Paninis",
+            "items": [
+              {
+                "name": "Gateway Club",
+                "price": "$7.95"
+              },
+              {
+                "name": "Rachel (Turkey)",
+                "price": "$7.95"
+              },
+              {
+                "name": "Smoked Turkey & Swiss",
+                "price": "$7.95"
+              },
+              {
+                "name": "BLT (Bacon, Lettuce & Tomato)",
+                "price": "$7.95"
+              },
+              {
+                "name": "Reuben (Corned Beef)",
+                "price": "$9.95"
+              },
+              {
+                "name": "Tuna",
+                "price": "$9.95"
+              },
+              {
+                "name": "Italian Trio",
+                "price": "$9.95"
+              },
+              {
+                "name": "Tuscan Grill",
+                "price": "$9.95"
+              }
+            ]
+          },
+          {
+            "section_name": "Pastas",
+            "note": "Served with breadsticks",
+            "items": [
+              {
+                "name": "Spaghetti Marinara",
+                "price": "$8.50"
+              },
+              {
+                "name": "Spaghetti Marinara w/ Meatballs",
+                "price": "$10.50"
+              },
+              {
+                "name": "Cheese Ravioli: Marinara or Alfredo",
+                "price": "$9.50"
+              },
+              {
+                "name": "Fettuccine Alfredo",
+                "price_options": [
+                  {
+                    "type": "Chicken",
+                    "price": "$13.25"
+                  },
+                  {
+                    "type": "Shrimp",
+                    "price": "$14.50"
+                  }
+                ]
+              }
+            ],
+            "extra_toppings": [
+              {
+                "name": "Chicken / Shrimp",
+                "price": "$3.95"
+              },
+              {
+                "name": "Meatballs",
+                "price": "$2.75"
+              }
+            ]
+          },
+          {
+            "section_name": "Grilled Fresh Sandwiches",
+            "items": [
+              {
+                "name": "Crispy Chicken",
+                "price": "$6.95"
+              },
+              {
+                "name": "Crispy Cajun Chicken",
+                "price": "$6.95"
+              },
+              {
+                "name": "Grilled Chicken",
+                "price": "$7.25"
+              },
+              {
+                "name": "Grilled Cajun Chicken",
+                "price": "$7.25"
+              },
+              {
+                "name": "Philly Cheesesteak",
+                "price": "$7.95"
+              },
+              {
+                "name": "Chicken Philly",
+                "price": "$7.95"
+              }
+            ]
+          },
+          {
+            "section_name": "Side Orders",
+            "items": [
+              {
+                "name": "Curly Fries",
+                "price": "$3.50"
+              },
+              {
+                "name": "French Fries",
+                "price": "$3.50"
+              },
+              {
+                "name": "Onion Rings",
+                "price": "$4.50"
+              },
+              {
+                "name": "Side Salad",
+                "price": "$4.00"
+              },
+              {
+                "name": "Bacon Ranch Cheese Fries",
+                "price": "$6.50"
+              },
+              {
+                "name": "Chili",
+                "price_options": [
+                  {
+                    "quantity": "Add",
+                    "price": "$2.95"
+                  },
+                  {
+                    "quantity": "Cup",
+                    "price": "$4.95"
+                  },
+                  {
+                    "quantity": "Bowl",
+                    "price": "$6.95"
+                  }
+                ]
+              },
+              {
+                "name": "Add Cheese Sauce",
+                "price": "$1.75"
+              }
+            ]
+          },
+          {
+            "section_name": "Pizza & Calzones - Classics",
+            "items": [
+              {
+                "name": "Cheese",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$5.25"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$16.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$6.95"
+                  }
+                ]
+              },
+              {
+                "name": "Pepperoni",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$5.95"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$18.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$7.95"
+                  }
+                ]
+              },
+              {
+                "name": "Italian Sausage",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$5.95"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$18.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$7.95"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "Pizza & Calzones - House Specialties",
+            "items": [
+              {
+                "name": "Supreme",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$7.25"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$22.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$9.95"
+                  }
+                ]
+              },
+              {
+                "name": "Chicken & Bacon Garlic Ranch",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$6.50"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$21.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$9.50"
+                  }
+                ]
+              },
+              {
+                "name": "Meatlover",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$6.50"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$21.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$9.50"
+                  }
+                ]
+              },
+              {
+                "name": "Chicken Alfredo",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$6.50"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$20.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$8.75"
+                  }
+                ]
+              },
+              {
+                "name": "Buffalo Chicken",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$6.50"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$20.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$8.75"
+                  }
+                ]
+              },
+              {
+                "name": "Hawaiian",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$6.50"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$20.95"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$8.75"
+                  }
+                ]
+              },
+              {
+                "name": "Vegetable",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$6.25"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$20.50"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$8.25"
+                  }
+                ]
+              }
+            ],
+            "extra_options": [
+              {
+                "name": "Additional Topping",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$0.95"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$3.00"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$1.50"
+                  }
+                ]
+              },
+              {
+                "name": "Add Grilled Chicken",
+                "price_options": [
+                  {
+                    "size": "7\" Pan",
+                    "price": "$1.50"
+                  },
+                  {
+                    "size": "17\" Pan",
+                    "price": "$4.50"
+                  },
+                  {
+                    "size": "Calzone",
+                    "price": "$2.50"
+                  }
+                ]
+              }
+            ],
+            "pizza_toppings": [
+              "Cheese",
+              "Pepperoni",
+              "Italian Sausage",
+              "Canadian Bacon",
+              "Grilled Chicken",
+              "Ground Beef",
+              "Green Peppers",
+              "Onions",
+              "Black Olives",
+              "Pineapple",
+              "Jalapeños",
+              "Mushrooms"
+            ]
+          },
+          {
+            "section_name": "Wings & Things - Wings",
+            "items": [
+              {
+                "name": "Boneless Wings",
+                "price_options": [
+                  {
+                    "quantity": "1/2 LB",
+                    "price": "$7.95"
+                  },
+                  {
+                    "quantity": "Full LB",
+                    "price": "$15.90"
+                  }
+                ]
+              },
+              {
+                "name": "Traditional Wings",
+                "price_options": [
+                  {
+                    "quantity": "6 Wings",
+                    "price": "$7.95"
+                  },
+                  {
+                    "quantity": "12 Wings",
+                    "price": "$15.90"
+                  },
+                  {
+                    "quantity": "24 Wings",
+                    "price": "$31.80"
+                  }
+                ]
+              }
+            ],
+            "sauce_option": "$1.50 for the additional charge",
+            "sauces": {
+              "mild": [
+                "Honey Mustard",
+                "Sesame Teriyaki"
+              ],
+              "medium": [
+                "Garlic Parmesan",
+                "Honey Garlic",
+                "Chipotle BBQ"
+              ],
+              "hot": [
+                "Buffalo",
+                "Sriracha"
+              ]
+            }
+          },
+          {
+            "section_name": "Wings & Things - Appetizers",
+            "items": [
+              {
+                "name": "Mozzarella Sticks",
+                "price": "$6.75",
+                "quantity": "5 pc"
+              },
+              {
+                "name": "Chicken Tenders",
+                "price": "$8.00",
+                "quantity": "4 pc"
+              },
+              {
+                "name": "Jalapeño Poppers",
+                "price_options": [
+                  {
+                    "quantity": "10 pc",
+                    "price": "$6.75"
+                  },
+                  {
+                    "quantity": "20 pc",
+                    "price": "$12.75"
+                  }
+                ]
+              },
+              {
+                "name": "Cheddar Chunks",
+                "price_options": [
+                  {
+                    "quantity": "1/2 LB",
+                    "price": "$6.75"
+                  },
+                  {
+                    "quantity": "Full LB",
+                    "price": "$12.75"
+                  }
+                ]
+              },
+              {
+                "name": "Crispy Egg Rolls",
+                "price_options": [
+                  {
+                    "quantity": "4 pc",
+                    "price": "$6.95"
+                  },
+                  {
+                    "quantity": "8 pc",
+                    "price": "$13.90"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "Wings & Things - Oriental Delights",
+            "items": [
+              {
+                "name": "Bulgogi with Rice",
+                "price": "$9.95"
+              },
+              {
+                "name": "Add Bulgogi 8oz",
+                "price": "$6.50"
+              },
+              {
+                "name": "Mixed Grill with Rice",
+                "price": "$9.95"
+              },
+              {
+                "name": "Fried Rice",
+                "price": "$9.25",
+                "description": "Chicken, Pork, Beef, Shrimp or Spam Kimchi"
+              },
+              {
+                "name": "Add Chicken, Pork, Beef, Shrimp or Spam",
+                "price": "$3.95"
+              },
+              {
+                "name": "Mandu",
+                "price_options": [
+                  {
+                    "quantity": "4 pc",
+                    "price": "$3.25"
+                  },
+                  {
+                    "quantity": "8 pc",
+                    "price": "$6.25"
+                  }
+                ]
+              }
+            ],
+            "note": "*Asian Delights menus may be sold out early."
+          },
+          {
+            "section_name": "Healthy Choice",
+            "items": [
+              {
+                "name": "Chicken Caesar Wrap",
+                "price": "$8.25"
+              },
+              {
+                "name": "Crispy Chicken Wrap (Ranch)",
+                "price": "$8.25"
+              },
+              {
+                "name": "Buffalo Crispy Chicken Wrap",
+                "price": "$8.25"
+              },
+              {
+                "name": "Bulgogi Wrap",
+                "price": "$8.95"
+              },
+              {
+                "name": "House Salad",
+                "price": "$6.25"
+              },
+              {
+                "name": "Mediterranean Salad",
+                "price": "$7.95"
+              },
+              {
+                "name": "Chicken Caesar Salad",
+                "price": "$8.95"
+              },
+              {
+                "name": "Crispy Chicken Salad",
+                "price": "$8.95"
+              },
+              {
+                "name": "Cajun Crispy Chicken Salad",
+                "price": "$8.95"
+              }
+            ],
+            "salad_dressing_3_25oz": "$1.00 for the additional charge",
+            "dressings": [
+              "Balsamic Vinaigrette",
+              "Ranch",
+              "Golden Italian",
+              "Thousand Island",
+              "Caesar",
+              "Blue Cheese"
+            ]
+          },
+          {
+            "section_name": "Beverages & Dessert",
+            "items": [
+              {
+                "name": "Red Bull",
+                "price": "$4.25"
+              },
+              {
+                "name": "Gatorade",
+                "price": "$2.75"
+              },
+              {
+                "name": "Can Soda",
+                "price": "$1.50"
+              },
+              {
+                "name": "Cola / Sprite / Fanta (500ml)",
+                "price": "$3.50"
+              },
+              {
+                "name": "Monster",
+                "price": "$3.75"
+              },
+              {
+                "name": "Bottled Water",
+                "price": "$1.50"
+              },
+              {
+                "name": "Cola (1.5L)",
+                "price": "$4.50"
+              },
+              {
+                "name": "Chocochip Cookie",
+                "price": "$2.50"
+              },
+              {
+                "name": "Cinnamon Roll",
+                "price": "$2.95"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

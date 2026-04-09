@@ -1,0 +1,376 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="app-shell">
+
+  <!-- ── Header ── -->
+  <header class="topbar card card--sticky">
+    <div>
+      <p class="eyebrow" data-i18n="app.kicker">생활 도우미</p>
+      <h1 class="app-title">{{ app_name }}</h1>
+    </div>
+
+    <div class="header-clock" id="header-clock" aria-live="polite">
+      <span class="header-clock__time" id="clock-time">--:--:--</span>
+      <span class="header-clock__date" id="clock-date">--</span>
+    </div>
+
+    <div class="topbar-actions">
+      <div class="segmented" role="group" aria-label="Language switcher">
+        <button type="button" class="segmented__item" data-locale-switch="ko" aria-pressed="true">🇰🇷 KO</button>
+        <button type="button" class="segmented__item" data-locale-switch="en" aria-pressed="false">🇺🇸 EN</button>
+      </div>
+      <div class="segmented" role="group" aria-label="Currency display">
+        <button type="button" class="segmented__item" data-currency-mode="usd_only" data-i18n="currency.usdOnly">달러</button>
+        <button type="button" class="segmented__item" data-currency-mode="usd_plus_krw" data-i18n="currency.usdPlusKrw">달러+원</button>
+        <button type="button" class="segmented__item" data-currency-mode="krw_primary" data-i18n="currency.krwPrimary">원</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- ── Side Navigation ── -->
+    <aside class="side-nav" aria-label="Section navigation">
+      <button class="nav-pill" data-scroll-target="home" data-i18n="nav.home">홈</button>
+      <button class="nav-pill" data-scroll-target="transit" data-i18n="nav.transit">🚌 교통</button>
+      <button class="nav-pill" data-scroll-target="delivery" data-i18n="nav.delivery">🍔 배달</button>
+      <button class="nav-pill" data-scroll-target="holidays" data-i18n="nav.holidays">📅 휴일</button>
+      <button class="nav-pill" data-scroll-target="exchange" data-i18n="nav.exchange">💱 환율</button>
+      <button class="nav-pill" data-scroll-target="chat" data-i18n="nav.chat">💬 챗봇</button>
+      <p class="helper" data-i18n="nav.helper">/ 키로 챗봇 입력창 이동</p>
+    </aside>
+
+    <div class="content">
+
+      <!-- ════════════════ HOME ════════════════ -->
+      <section id="home" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow" data-i18n="home.eyebrow">빠른 시작</p>
+            <h2 data-i18n="home.title">지금 가장 많이 찾는 정보</h2>
+          </div>
+        </div>
+
+        <!-- Home summary cards -->
+        <div id="home-cards" class="card-grid card-grid--home" aria-live="polite">
+          <div class="card skeleton-card"><div class="skeleton skeleton--title"></div><div class="skeleton skeleton--line"></div><div class="skeleton skeleton--line"></div></div>
+          <div class="card skeleton-card"><div class="skeleton skeleton--title"></div><div class="skeleton skeleton--line"></div><div class="skeleton skeleton--line"></div></div>
+          <div class="card skeleton-card"><div class="skeleton skeleton--title"></div><div class="skeleton skeleton--line"></div><div class="skeleton skeleton--line"></div></div>
+          <div class="card skeleton-card"><div class="skeleton skeleton--title"></div><div class="skeleton skeleton--line"></div><div class="skeleton skeleton--line"></div></div>
+        </div>
+
+        <!-- Quick action chips → link to chatbot -->
+        <div class="quick-actions card">
+          <p class="field-label" data-i18n="home.quickActions">바로 가기</p>
+          <div class="chip-row">
+            <button type="button" class="chip" data-suggest-query="지금 CAC 가는 다음 버스 언제야?" data-i18n="chat.suggestBus">CAC 버스</button>
+            <button type="button" class="chip" data-suggest-query="보산역 다음 전철 언제야?" data-i18n="chat.suggestTrain">보산역 열차</button>
+            <button type="button" class="chip" data-suggest-query="지금 열려 있는 배달집 뭐 있어?" data-i18n="chat.suggestStore">영업 중 배달</button>
+            <button type="button" class="chip" data-suggest-query="오늘 training holiday야?" data-i18n="chat.suggestHoliday">오늘 휴일</button>
+            <button type="button" class="chip" data-suggest-query="12.95달러를 원화로 바꿔줘" data-i18n="chat.suggestExchange">금액 변환</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ════════════════ TRANSIT ════════════════ -->
+      <section id="transit" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow" data-i18n="transit.eyebrow">교통</p>
+            <h2 data-i18n="transit.title">🚌 버스 / 기차</h2>
+          </div>
+          <div class="tooltip">
+            <button type="button" class="icon-button" aria-label="Transit help">?</button>
+            <span class="tooltip-bubble" role="tooltip" data-i18n="transit.tooltip">버스는 주중 / 주말·훈련 휴일 시트 기준입니다.</span>
+          </div>
+        </div>
+
+        <!-- Live Bus Tracker + Dual Stop Dashboard -->
+        <div class="card" id="bus-dashboard">
+          <!-- Live tracker -->
+          <div class="bus-tracker" id="bus-tracker">
+            <div class="bus-tracker__title">
+              <span class="bus-tracker__title-dot"></span>
+              <span data-i18n="transit.liveTracker">실시간 버스 위치 (추정)</span>
+            </div>
+            <div class="bus-tracker__line" id="bus-tracker-line">
+              <div class="bus-tracker__rail"></div>
+              <div class="bus-tracker__stop" style="left:0%">
+                <div class="bus-tracker__stop-dot"></div>
+                <div class="bus-tracker__stop-label">Gate #1</div>
+              </div>
+              <div class="bus-tracker__stop" style="left:20.6%">
+                <div class="bus-tracker__stop-dot"></div>
+                <div class="bus-tracker__stop-label">S-0136<br>(Hovey)</div>
+              </div>
+              <div class="bus-tracker__stop" style="left:52.4%">
+                <div class="bus-tracker__stop-dot"></div>
+                <div class="bus-tracker__stop-label">Hovey</div>
+              </div>
+              <div class="bus-tracker__stop" style="left:84.1%">
+                <div class="bus-tracker__stop-dot"></div>
+                <div class="bus-tracker__stop-label">S-0136<br>(Gate)</div>
+              </div>
+              <div class="bus-tracker__stop" style="left:100%">
+                <div class="bus-tracker__stop-dot"></div>
+                <div class="bus-tracker__stop-label">Last</div>
+              </div>
+              <!-- bus icons are injected dynamically by JS -->
+            </div>
+            <p class="helper" style="margin-top: var(--space-2);" data-i18n="transit.liveTrackerNote">시간표 기반 추정 위치입니다.</p>
+          </div>
+
+          <!-- Dual stop cards -->
+          <div class="dual-stop-grid">
+            <div class="stop-card">
+              <div class="stop-card__name">
+                <span class="stop-card__pin"></span>
+                Gate #1 <span class="stop-card__sub" data-i18n="transit.stopGate1Sub">출발</span>
+              </div>
+              <div id="stop-gate1-departures" class="stop-card__departures">
+                <div class="departure-pill"><span class="departure-pill__time">--:--</span><span class="departure-pill__countdown">--</span></div>
+                <div class="departure-pill"><span class="departure-pill__time">--:--</span><span class="departure-pill__countdown">--</span></div>
+                <div class="departure-pill"><span class="departure-pill__time">--:--</span><span class="departure-pill__countdown">--</span></div>
+              </div>
+            </div>
+            <div class="stop-card">
+              <div class="stop-card__name">
+                <span class="stop-card__pin"></span>
+                S-0136 <span class="stop-card__sub" data-i18n="transit.stopS0136GateSub">Gate방향</span>
+              </div>
+              <div id="stop-s0136-departures" class="stop-card__departures">
+                <div class="departure-pill"><span class="departure-pill__time">--:--</span><span class="departure-pill__countdown">--</span></div>
+                <div class="departure-pill"><span class="departure-pill__time">--:--</span><span class="departure-pill__countdown">--</span></div>
+                <div class="departure-pill"><span class="departure-pill__time">--:--</span><span class="departure-pill__countdown">--</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tabs: bus / train -->
+          <div style="border-top: 1px solid var(--border);">
+            <div class="tabs" role="tablist" aria-label="Transit tabs">
+              <button role="tab" id="tab-bus" aria-selected="true" aria-controls="panel-bus" class="tab is-active" data-tab-target="panel-bus" data-i18n="transit.busTab">버스</button>
+              <button role="tab" id="tab-train" aria-selected="false" aria-controls="panel-train" class="tab" data-tab-target="panel-train" data-i18n="transit.trainTab">기차</button>
+            </div>
+
+            <div id="panel-bus" class="tab-panel is-active" role="tabpanel" aria-labelledby="tab-bus">
+              <form id="bus-form" class="stacked-form">
+                <div class="form-actions">
+                  <button type="submit" class="btn btn--primary is-active" id="bus-submit" data-i18n="transit.showNextBus">다음 버스 보기</button>
+                  <button type="button" class="btn btn--secondary" id="bus-show-full" data-i18n="transit.showFullSchedule">전체 시간표</button>
+                </div>
+              </form>
+              <!-- Dual independent stop panels -->
+              <div id="bus-results-dual" class="bus-results-dual" aria-live="polite">
+                <div id="bus-results-gate1"></div>
+                <div id="bus-results-s0136-gate"></div>
+              </div>
+            </div>
+
+            <div id="panel-train" class="tab-panel" role="tabpanel" aria-labelledby="tab-train">
+              <form id="train-form" class="stacked-form">
+                <div class="field-grid">
+                  <label class="field-block">
+                    <span class="field-label" data-i18n="transit.provider">역</span>
+                    <select id="train-provider-input" class="field" aria-describedby="train-provider-helper"></select>
+                    <span id="train-provider-helper" class="helper" data-i18n="transit.providerHelper">지행선은 시간표가 아직 연결되지 않았습니다.</span>
+                  </label>
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn--primary is-active" id="train-submit" data-i18n="transit.showNextTrain">다음 열차 보기</button>
+                  <button type="button" class="btn btn--secondary" id="train-show-full" data-i18n="transit.showFullSchedule">전체 시간표</button>
+                </div>
+              </form>
+              <div id="train-results" class="result-region" style="padding: 0 var(--space-5) var(--space-5);" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ════════════════ DELIVERY ════════════════ -->
+      <section id="delivery" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow" data-i18n="delivery.eyebrow">음식 / 배달</p>
+            <h2 data-i18n="delivery.title">🍔 영업 중 매장</h2>
+          </div>
+          <div class="tooltip">
+            <button type="button" class="icon-button" aria-label="Delivery help">?</button>
+            <span class="tooltip-bubble" role="tooltip" data-i18n="delivery.tooltip">영업 중 여부는 업로드된 시간 규칙으로 자동 판정합니다.</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- Simplified filter: open now only -->
+          <form id="store-filter-form" style="padding: var(--space-5) var(--space-6); display: flex; align-items: center; gap: var(--space-4); border-bottom: 1px solid var(--border);">
+            <label class="field-inline">
+              <input id="store-open-now-input" type="checkbox" />
+              <span data-i18n="delivery.openNowOnly">영업 중만 보기</span>
+            </label>
+            <button type="submit" class="btn btn--primary btn--small" id="store-filter-submit" data-i18n="delivery.applyFilters">적용</button>
+          </form>
+          <div id="store-results" class="result-region" style="padding: var(--space-4) var(--space-6) var(--space-6);" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- ════════════════ HOLIDAYS ════════════════ -->
+      <section id="holidays" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow" data-i18n="holidays.eyebrow">휴일 / 포데이</p>
+            <h2 data-i18n="holidays.title">📅 2026년 휴일 달력</h2>
+          </div>
+          <div class="tooltip">
+            <button type="button" class="icon-button" aria-label="Holiday help">?</button>
+            <span class="tooltip-bubble" role="tooltip" data-i18n="holidays.tooltip">확정 공식, 패턴 기반, 미확인 날짜를 색상으로 구분합니다.</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- Confirmed toggle -->
+          <div class="confirmed-toggle">
+            <input id="holiday-confirmed-only" type="checkbox" />
+            <label for="holiday-confirmed-only" style="cursor:pointer; font-weight:600;" data-i18n="holidays.confirmedOnly">확정 일정만 보기</label>
+          </div>
+
+          <!-- Calendar month navigation -->
+          <div class="calendar-pager">
+            <button type="button" class="btn btn--ghost btn--small" id="cal-prev-btn" aria-label="Previous month">&#8249;</button>
+            <span id="cal-month-label" class="calendar-pager__label"></span>
+            <button type="button" class="btn btn--ghost btn--small" id="cal-next-btn" aria-label="Next month">&#8250;</button>
+          </div>
+          <div id="calendar-container" class="calendar-wrapper"></div>
+
+          <!-- Holiday list for the displayed month (scrollable) -->
+          <div id="holiday-results" class="holiday-results-scroll" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- ════════════════ EXCHANGE ════════════════ -->
+      <section id="exchange" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow" data-i18n="exchange.eyebrow">환율 / 금액 변환</p>
+            <h2 data-i18n="exchange.title">💱 실시간 환율</h2>
+          </div>
+          <div class="tooltip">
+            <button type="button" class="icon-button" aria-label="Exchange help">?</button>
+            <span class="tooltip-bubble" role="tooltip" data-i18n="exchange.tooltip">네이버 실시간 환율을 사용합니다.</span>
+          </div>
+        </div>
+
+        <div class="card-grid card-grid--exchange">
+          <article class="card interactive-card" aria-labelledby="exchange-summary-title">
+            <div class="summary-card">
+              <div class="card-header">
+                <h3 id="exchange-summary-title" data-i18n="exchange.currentRate">현재 환율</h3>
+                <span id="exchange-status-badge" class="badge badge--success" data-i18n="exchange.autoMode">실시간</span>
+              </div>
+              <p id="exchange-current-rate" class="hero-value">--</p>
+              <p id="exchange-last-updated" class="subtle">--</p>
+              <p class="helper" data-i18n="exchange.summaryHelper">메뉴·최소 주문·챗봇 변환에 즉시 반영됩니다.</p>
+              <button type="button" class="btn btn--ghost btn--small" id="exchange-refresh-btn" style="margin-top: var(--space-2);" data-i18n="exchange.refresh">새로고침</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div style="padding: var(--space-6); display: grid; gap: var(--space-4);">
+              <h3 data-i18n="exchange.converterTitle">빠른 계산기</h3>
+              <div class="field-grid">
+                <label class="field-block">
+                  <span class="field-label" data-i18n="exchange.converterAmount">금액</span>
+                  <input id="converter-amount-input" class="field" type="number" min="0" step="0.01" placeholder="12.95" />
+                </label>
+                <label class="field-block">
+                  <span class="field-label" data-i18n="exchange.converterDirection">방향</span>
+                  <select id="converter-direction-input" class="field">
+                    <option value="USD_TO_KRW">USD → KRW</option>
+                    <option value="KRW_TO_USD">KRW → USD</option>
+                  </select>
+                </label>
+              </div>
+              <div id="converter-output" class="converter-output" aria-live="polite"></div>
+              <details class="details">
+                <summary data-i18n="exchange.showFormula">계산식 보기</summary>
+                <p id="converter-formula" class="helper" style="margin-top: var(--space-2);"></p>
+              </details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ════════════════ CHAT ════════════════ -->
+      <section id="chat" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow" data-i18n="chat.eyebrow">챗봇</p>
+            <h2 data-i18n="chat.title">💬 질문하기</h2>
+          </div>
+          <div class="tooltip">
+            <button type="button" class="icon-button" aria-label="Chat help">?</button>
+            <span class="tooltip-bubble" role="tooltip" data-i18n="chat.tooltip">코드가 먼저 처리하고, 필요할 때만 AI가 보완합니다.</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div id="chat-log" class="chat-log" style="margin: var(--space-6); margin-bottom: 0;" aria-live="polite" aria-label="Chat history">
+            <div class="empty-state">
+              <h3 data-i18n="chat.emptyTitle">질문을 시작해보세요</h3>
+              <p data-i18n="chat.emptyBody">예: '지금 워리어스클럽 열었어?' '보산역 다음 인천행 언제야?'</p>
+            </div>
+          </div>
+
+          <!-- Quick chips inside chat -->
+          <div style="padding: var(--space-4) var(--space-6) 0;">
+            <div class="chip-row">
+              <button type="button" class="chip" data-suggest-query="지금 CAC 가는 다음 버스 언제야?" data-i18n="chat.suggestBus">CAC 버스</button>
+              <button type="button" class="chip" data-suggest-query="보산역 다음 전철 언제야?" data-i18n="chat.suggestTrain">보산역 열차</button>
+              <button type="button" class="chip" data-suggest-query="지금 열려 있는 배달집 뭐 있어?" data-i18n="chat.suggestStore">영업 중 배달</button>
+              <button type="button" class="chip" data-suggest-query="오늘 training holiday야?" data-i18n="chat.suggestHoliday">오늘 휴일</button>
+              <button type="button" class="chip" data-suggest-query="12.95달러를 원화로 바꿔줘" data-i18n="chat.suggestExchange">금액 변환</button>
+            </div>
+          </div>
+
+          <form id="chat-form" class="chat-form">
+            <label class="field-block grow">
+              <span class="field-label" data-i18n="chat.inputLabel">질문</span>
+              <textarea id="chat-input" class="field field--textarea" rows="3" placeholder="보산역 다음 인천행 언제야?" aria-describedby="chat-helper"></textarea>
+              <span id="chat-helper" class="helper" data-i18n="chat.helper">답변 아래에 근거 출처가 함께 표시됩니다.</span>
+            </label>
+            <div class="form-actions form-actions--vertical">
+              <button type="submit" class="btn btn--primary" id="chat-submit" data-i18n="chat.send">보내기</button>
+              <button type="button" class="btn btn--ghost" id="chat-clear" data-i18n="chat.clear">대화 지우기</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ── Mobile Bottom Bar ── -->
+  <nav class="bottom-bar" aria-label="Mobile quick navigation">
+    <button class="nav-pill nav-pill--compact" data-scroll-target="home" data-i18n="nav.home">홈</button>
+    <button class="nav-pill nav-pill--compact" data-scroll-target="transit" data-i18n="nav.transit">🚌 교통</button>
+    <button class="nav-pill nav-pill--compact" data-scroll-target="delivery" data-i18n="nav.delivery">🍔 배달</button>
+    <button class="nav-pill nav-pill--compact" data-scroll-target="chat" data-i18n="nav.chat">💬 챗봇</button>
+  </nav>
+
+  <!-- ── Store Detail Modal ── -->
+  <dialog id="store-dialog" class="modal">
+    <form method="dialog" class="modal-card">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow" data-i18n="delivery.detailEyebrow">매장 상세</p>
+          <h3 id="store-dialog-title">--</h3>
+        </div>
+        <button type="submit" class="icon-button" aria-label="Close store detail">×</button>
+      </div>
+      <div id="store-dialog-body" class="modal-body"></div>
+    </form>
+  </dialog>
+
+  <!-- ── Toast ── -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</div>
+{% endblock %}

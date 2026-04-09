@@ -1,0 +1,12 @@
+{
+  "active_provider": "manual",
+  "manual_snapshot": {
+    "provider_id": "manual",
+    "usd_to_krw": 1500.0,
+    "updated_at": "2026-04-09T00:00:00+09:00",
+    "status": "active",
+    "is_auto": false,
+    "note": "Default seeded manual rate"
+  },
+  "auto_provider_enabled": false
+}

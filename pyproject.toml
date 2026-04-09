@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "camp-casey-app"
+version = "0.1.0"
+description = "Camp Casey / Hovey / Bosan living helper with deterministic transit/store logic and an optional LangGraph/LangServe chat layer."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "OpenAI" }]
+dependencies = [
+  "fastapi>=0.111,<1.0",
+  "uvicorn[standard]>=0.30,<1.0",
+  "jinja2>=3.1,<4.0",
+  "openpyxl>=3.1,<4.0",
+  "rapidfuzz>=3.9,<4.0",
+  "python-dotenv>=1.0,<2.0",
+  "pydantic>=2.7,<3.0",
+  "openai>=1.40,<2.0",
+  "langgraph>=0.2,<1.0",
+  "langserve>=0.3,<1.0",
+  "langchain-core>=0.2,<1.0",
+  "orjson>=3.10,<4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2,<10.0",
+  "httpx>=0.27,<1.0",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["camp_casey_app*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"

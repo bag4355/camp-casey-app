@@ -1,0 +1,340 @@
+{
+  "location": "Camp Casey / USFK",
+  "as_of": "2026-04-09",
+  "notes": {
+    "confidence_rule": "Only dates supported by public official calendars are marked confirmed. Unit-specific training holidays are marked unconfirmed unless publicly documented.",
+    "important_distinction": "FY26 ends on 2026-09-30. Dates after that are calendar-year estimates, not confirmed FY26 dates."
+  },
+  "holidays": [
+    {
+      "entry_id": "2026-05-22-training-holiday-confirmed-pattern",
+      "date": "2026-05-22",
+      "status": "confirmed_pattern",
+      "holiday_type": "training_holiday",
+      "holiday_name": null,
+      "paired_with": "2026-05-25",
+      "reason": "Friday before Memorial Day, forming a 4-day weekend",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-05-22 • training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/0",
+          "excerpt": "Friday before Memorial Day, forming a 4-day weekend"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-05-25-federal-holiday-confirmed-official",
+      "date": "2026-05-25",
+      "status": "confirmed_official",
+      "holiday_type": "federal_holiday",
+      "holiday_name": "Memorial Day",
+      "paired_with": null,
+      "reason": "U.S. federal holiday",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-05-25 • Memorial Day",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/1",
+          "excerpt": "U.S. federal holiday"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-06-19-federal-holiday-confirmed-official",
+      "date": "2026-06-19",
+      "status": "confirmed_official",
+      "holiday_type": "federal_holiday",
+      "holiday_name": "Juneteenth National Independence Day",
+      "paired_with": null,
+      "reason": "U.S. federal holiday",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-06-19 • Juneteenth National Independence Day",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/2",
+          "excerpt": "U.S. federal holiday"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-06-22-training-holiday-confirmed-pattern",
+      "date": "2026-06-22",
+      "status": "confirmed_pattern",
+      "holiday_type": "training_holiday",
+      "holiday_name": null,
+      "paired_with": "2026-06-19",
+      "reason": "Monday after Juneteenth, forming a 4-day weekend",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-06-22 • training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/3",
+          "excerpt": "Monday after Juneteenth, forming a 4-day weekend"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-07-03-federal-holiday-confirmed-official",
+      "date": "2026-07-03",
+      "status": "confirmed_official",
+      "holiday_type": "federal_holiday",
+      "holiday_name": "Independence Day (observed)",
+      "paired_with": null,
+      "reason": "July 4 falls on Saturday in 2026, so the federal observance is Friday July 3",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-07-03 • Independence Day (observed)",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/4",
+          "excerpt": "July 4 falls on Saturday in 2026, so the federal observance is Friday July 3"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-07-06-training-holiday-confirmed-pattern",
+      "date": "2026-07-06",
+      "status": "confirmed_pattern",
+      "holiday_type": "training_holiday",
+      "holiday_name": null,
+      "paired_with": "2026-07-03",
+      "reason": "Monday after Independence Day observed, forming a 4-day weekend",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-07-06 • training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/5",
+          "excerpt": "Monday after Independence Day observed, forming a 4-day weekend"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-09-04-training-holiday-confirmed-pattern",
+      "date": "2026-09-04",
+      "status": "confirmed_pattern",
+      "holiday_type": "training_holiday",
+      "holiday_name": null,
+      "paired_with": "2026-09-07",
+      "reason": "Friday before Labor Day, forming a 4-day weekend",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-09-04 • training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/6",
+          "excerpt": "Friday before Labor Day, forming a 4-day weekend"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-09-07-federal-holiday-confirmed-official",
+      "date": "2026-09-07",
+      "status": "confirmed_official",
+      "holiday_type": "federal_holiday",
+      "holiday_name": "Labor Day",
+      "paired_with": null,
+      "reason": "U.S. federal holiday",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-09-07 • Labor Day",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/7",
+          "excerpt": "U.S. federal holiday"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-09-11-possible-local-donsa-or-training-holiday-unconfirmed-publicly",
+      "date": "2026-09-11",
+      "status": "unconfirmed_publicly",
+      "holiday_type": "possible_local_donsa_or_training_holiday",
+      "holiday_name": null,
+      "paired_with": null,
+      "reason": "No matching publicly documented U.S. federal or Korean national holiday found",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-09-11 • possible_local_donsa_or_training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/8",
+          "excerpt": "No matching publicly documented U.S. federal or Korean national holiday found"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-09-14-possible-local-donsa-or-training-holiday-unconfirmed-publicly",
+      "date": "2026-09-14",
+      "status": "unconfirmed_publicly",
+      "holiday_type": "possible_local_donsa_or_training_holiday",
+      "holiday_name": null,
+      "paired_with": null,
+      "reason": "No matching publicly documented U.S. federal or Korean national holiday found",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-09-14 • possible_local_donsa_or_training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/9",
+          "excerpt": "No matching publicly documented U.S. federal or Korean national holiday found"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-09-25-rok-holiday-confirmed-official",
+      "date": "2026-09-25",
+      "status": "confirmed_official",
+      "holiday_type": "rok_holiday",
+      "holiday_name": "Chuseok",
+      "paired_with": null,
+      "reason": "Falls within the Korean Chuseok holiday period (2026-09-24 to 2026-09-26)",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-09-25 • Chuseok",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/10",
+          "excerpt": "Falls within the Korean Chuseok holiday period (2026-09-24 to 2026-09-26)"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-10-09-training-holiday-likely-but-not-locally-confirmed",
+      "date": "2026-10-09",
+      "status": "likely_but_not_locally_confirmed",
+      "holiday_type": "training_holiday",
+      "holiday_name": null,
+      "paired_with": "2026-10-12",
+      "reason": "Friday before Columbus Day, forming a likely 4-day weekend (not locally confirmed)",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-10-09 • training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/11",
+          "excerpt": "Friday before Columbus Day, forming a likely 4-day weekend (not locally confirmed)"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-10-12-federal-holiday-confirmed-official",
+      "date": "2026-10-12",
+      "status": "confirmed_official",
+      "holiday_type": "federal_holiday",
+      "holiday_name": "Columbus Day",
+      "paired_with": null,
+      "reason": "U.S. federal holiday",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-10-12 • Columbus Day",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/12",
+          "excerpt": "U.S. federal holiday"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-11-26-federal-holiday-confirmed-official",
+      "date": "2026-11-26",
+      "status": "confirmed_official",
+      "holiday_type": "federal_holiday",
+      "holiday_name": "Thanksgiving Day",
+      "paired_with": null,
+      "reason": "U.S. federal holiday",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-11-26 • Thanksgiving Day",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/13",
+          "excerpt": "U.S. federal holiday"
+        }
+      ]
+    },
+    {
+      "entry_id": "2026-11-27-training-holiday-likely-but-not-locally-confirmed",
+      "date": "2026-11-27",
+      "status": "likely_but_not_locally_confirmed",
+      "holiday_type": "training_holiday",
+      "holiday_name": null,
+      "paired_with": "2026-11-26",
+      "reason": "Friday after Thanksgiving; many Army installations use a family day/training holiday pattern (not locally confirmed)",
+      "notes": [],
+      "source_refs": [
+        {
+          "source_type": "json",
+          "file_name": "holiday.json",
+          "label": "holiday.json • 2026-11-27 • training_holiday",
+          "sheet_name": null,
+          "row": null,
+          "column": null,
+          "json_pointer": "/known_dates_provided_by_user/14",
+          "excerpt": "Friday after Thanksgiving; many Army installations use a family day/training holiday pattern (not locally confirmed)"
+        }
+      ]
+    }
+  ]
+}
