@@ -69,6 +69,9 @@
     storeDialog: $("#store-dialog"),
     storeDialogTitle: $("#store-dialog-title"),
     storeDialogBody: $("#store-dialog-body"),
+    busTripDialog: $("#bus-trip-dialog"),
+    busTripDialogTitle: $("#bus-trip-dialog-title"),
+    busTripDialogBody: $("#bus-trip-dialog-body"),
     clockTime: $("#clock-time"),
     clockDate: $("#clock-date"),
     busTrackerLine: $("#bus-tracker-line"),
@@ -326,6 +329,89 @@
   // Gate#1에서 S-0136(Gate방향) 까지 소요 시간(분)
   const GATE1_TO_S0136_GATE_MIN = 53;
 
+  /* ─── Korean Station Name → English map (for EN locale) ─── */
+  const STATION_KO_TO_EN = {
+    "인천": "Incheon",
+    "광운대": "Gwangundae",
+    "소요산": "Soyosan",
+    "의정부": "Uijeongbu",
+    "동두천": "Dongducheon",
+    "동두천중앙": "Dongducheon-Jungang",
+    "보산": "Bosan",
+    "서울역": "Seoul Station",
+    "청량리": "Cheongnyangni",
+    "연천": "Yeoncheon",
+    "양주": "Yangju",
+    "덕계": "Deokgye",
+    "덕정": "Deokjeong",
+    "지행": "Jihang",
+  };
+
+  function localizeStationName(name) {
+    if (!name) return name;
+    if (state.locale === "ko") return name;
+    const trimmed = name.trim();
+    const en = STATION_KO_TO_EN[trimmed];
+    return en ? `${trimmed} (${en})` : name;
+  }
+
+  /* ─── Bus Trip Detail Modal ─── */
+  const BUS_STOP_SCHEDULE = [
+    { ko: "Gate #1",          en: "Gate #1",          offset: 0  },
+    { ko: "S-0136 (→Hovey)",  en: "S-0136 (→Hovey)",  offset: 13 },
+    { ko: "Hovey (DFAC)",     en: "Hovey (DFAC)",     offset: 33 },
+    { ko: "S-0136 (→Gate)",   en: "S-0136 (→Gate)",   offset: 53 },
+    { ko: "Bowling Center",   en: "Bowling Center",   offset: 63 },
+  ];
+
+  function minToTimeStr(min) {
+    const total = ((Math.round(min) % 1440) + 1440) % 1440;
+    const h = String(Math.floor(total / 60)).padStart(2, "0");
+    const m = String(total % 60).padStart(2, "0");
+    return `${h}:${m}`;
+  }
+
+  function showBusTripModal(gate1Min) {
+    if (!dom.busTripDialog) return;
+    const ko = state.locale === "ko";
+    const nowMin = (new Date()).getHours() * 60 + (new Date()).getMinutes();
+    const base = ((Math.round(gate1Min) % 1440) + 1440) % 1440;
+    const tripStarted = base <= nowMin;
+
+    let foundCurrent = false;
+    const rows = BUS_STOP_SCHEDULE.map((stop) => {
+      const stopMin = (base + stop.offset) % 1440;
+      const timeStr = minToTimeStr(stopMin);
+      const isPassed = stopMin < nowMin;
+      const isCurrent = tripStarted && !isPassed && !foundCurrent;
+      if (isCurrent) foundCurrent = true;
+
+      const name = ko ? stop.ko : stop.en;
+      let cls = "bus-trip-stop";
+      let icon = "○";
+      if (isPassed) { cls += " bus-trip-stop--passed"; icon = "✓"; }
+      else if (isCurrent) { cls += " bus-trip-stop--current"; icon = "🚌"; }
+
+      return `<div class="${cls}">
+        <div class="bus-trip-stop__icon">${icon}</div>
+        <div class="bus-trip-stop__info">
+          <span class="bus-trip-stop__name">${escapeHtml(name)}</span>
+          <span class="bus-trip-stop__time">${timeStr}</span>
+        </div>
+      </div>`;
+    });
+
+    if (dom.busTripDialogTitle) {
+      dom.busTripDialogTitle.textContent = ko
+        ? `Gate #1 ${minToTimeStr(base)} 출발 버스`
+        : `Bus departing Gate #1 at ${minToTimeStr(base)}`;
+    }
+    if (dom.busTripDialogBody) {
+      dom.busTripDialogBody.innerHTML = `<div class="bus-trip-stops">${rows.join("")}</div>`;
+    }
+    if (!dom.busTripDialog.open) dom.busTripDialog.showModal();
+  }
+
   /* ─── Home ─── */
   function renderHome() {
     if (!state.bootstrap) return;
@@ -436,7 +522,7 @@
         <h3>${escapeHtml(title)}</h3>
         <span class="badge badge--neutral">${escapeHtml(result?.service_profile_label || result?.service_label || "—")}</span>
       </div>
-      <p class="hero-value">${first ? `${formatTime(first.time)}${first.destination ? ` · ${escapeHtml(first.destination)}` : ""}` : "—"}</p>
+      <p class="hero-value">${first ? `${formatTime(first.time)}${first.destination ? ` · ${escapeHtml(localizeStationName(first.destination))}` : ""}` : "—"}</p>
       <p class="subtle">${first ? `${first.countdown_label}${first.is_next_day ? " +1d" : ""}` : t(`home.noNext${kind === "bus" ? "Bus" : "Train"}`)}</p>
       <div class="chip-row">
         ${deps.slice(0, 3).map((d) => `<span class="chip">${formatTime(d.time)} · ${escapeHtml(d.countdown_label)}</span>`).join("")}
@@ -455,7 +541,7 @@
   }
 
   /* ─── Bus Results ─── */
-  function renderBusResults(result, fullMode = false, container = null) {
+  function renderBusResults(result, fullMode = false, container = null, stopType = "gate1") {
     const el = container || dom.busResultsGate1;
     if (!el) return;
     if (!result || result.available === false) {
@@ -477,15 +563,16 @@
           ${dayTypeBadge(result.day_type?.derived_day_type)}
         </div>
         <div class="departure-list">
-          ${deps.map((d) => `
-            <div class="departure-row">
+          ${deps.map((d) => {
+            const dMin = timeStrToMinutes(d.time);
+            const gate1Min = stopType === "gate1" ? dMin : ((dMin - 53 + 1440) % 1440);
+            return `<div class="departure-row" data-gate1-min="${gate1Min}" title="${state.locale === "ko" ? "탭하여 정류장별 시간 보기" : "Tap to see all stop times"}">
               <div class="departure-row__main">
                 <strong>${formatTime(d.time)} ${d.is_next_day ? "<span class='badge badge--warning'>+1d</span>" : ""}</strong>
                 <span>${escapeHtml(d.countdown_label || "")}</span>
               </div>
-              <span class="subtle">${formatDateTime(d.departure_datetime)}</span>
-            </div>
-          `).join("")}
+            </div>`;
+          }).join("")}
         </div>
         ${fullMode ? `<p class="helper">${t("transit.rolloverHelper")}</p>` : ""}
       </article>`;
@@ -514,10 +601,9 @@
           ${deps.map((d) => `
             <div class="departure-row">
               <div class="departure-row__main">
-                <strong>${formatTime(d.time)} · ${escapeHtml(d.destination || "")}</strong>
+                <strong>${formatTime(d.time)} · ${escapeHtml(localizeStationName(d.destination) || "")}</strong>
                 <span>${escapeHtml(d.countdown_label || "")}</span>
               </div>
-              <span class="subtle">${formatDateTime(d.departure_datetime)}</span>
             </div>
           `).join("")}
         </div>
@@ -1237,8 +1323,8 @@
       };
     }
 
-    if (dom.busResultsGate1)     renderBusResults(gate1Data, fullMode, dom.busResultsGate1);
-    if (dom.busResultsS0136Gate) renderBusResults(s0136GateData, fullMode, dom.busResultsS0136Gate);
+    if (dom.busResultsGate1)     renderBusResults(gate1Data, fullMode, dom.busResultsGate1, "gate1");
+    if (dom.busResultsS0136Gate) renderBusResults(s0136GateData, fullMode, dom.busResultsS0136Gate, "s0136-gate");
     toggleQueryButtons("#bus-submit", "#bus-show-full", fullMode);
   }
 
@@ -1369,6 +1455,22 @@
 
     // Store dialog
     dom.storeDialog?.addEventListener("close", () => { dom.storeDialogBody.innerHTML = ""; });
+
+    // Bus trip dialog
+    dom.busTripDialog?.addEventListener("close", () => {
+      if (dom.busTripDialogBody) dom.busTripDialogBody.innerHTML = "";
+    });
+
+    // Bus departure row click → show bus trip modal
+    [dom.busResultsGate1, dom.busResultsS0136Gate].forEach((container) => {
+      if (!container) return;
+      container.addEventListener("click", (e) => {
+        const row = e.target.closest("[data-gate1-min]");
+        if (!row) return;
+        const gate1Min = Number(row.dataset.gate1Min);
+        if (!Number.isNaN(gate1Min)) showBusTripModal(gate1Min);
+      });
+    });
 
     // Tabs
     $$("[data-tab-target]").forEach((tab) => {

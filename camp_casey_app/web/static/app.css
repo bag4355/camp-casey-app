@@ -2064,6 +2064,109 @@ img, svg {
   cursor: pointer;
 }
 
+/* ─── Bus Trip Detail Modal ─── */
+.bus-trip-modal-body {
+  padding: var(--space-5) !important;
+}
+
+.bus-trip-stops {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.bus-trip-stop {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  background: var(--surface-sunken);
+  border: 1px solid var(--border);
+  transition: border-color var(--duration-fast);
+}
+
+.bus-trip-stop--passed {
+  opacity: 0.45;
+}
+
+.bus-trip-stop--current {
+  border-color: var(--accent);
+  background: var(--accent-subtle);
+}
+
+.bus-trip-stop__icon {
+  font-size: 1.1rem;
+  width: 2rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.bus-trip-stop__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  gap: var(--space-3);
+}
+
+.bus-trip-stop__name {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.bus-trip-stop--passed .bus-trip-stop__name {
+  color: var(--text-tertiary);
+}
+
+.bus-trip-stop--current .bus-trip-stop__name {
+  color: var(--accent);
+}
+
+.bus-trip-stop__time {
+  font-size: 1.125rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.bus-trip-stop--passed .bus-trip-stop__time {
+  color: var(--text-tertiary);
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.bus-trip-stop--current .bus-trip-stop__time {
+  color: var(--accent);
+}
+
+/* ─── Bus Full Schedule Scrollable Departure List ─── */
+.bus-results-dual .departure-list {
+  max-height: 380px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.bus-results-dual .departure-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.bus-results-dual .departure-list::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: var(--radius-full);
+}
+
+/* Clickable departure rows */
+.departure-row[data-gate1-min] {
+  cursor: pointer;
+}
+
+.departure-row[data-gate1-min]:hover {
+  border-color: var(--accent);
+  background: var(--accent-subtle);
+}
+
 /* ─── Print ─── */
 @media print {
   .topbar,
